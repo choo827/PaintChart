@@ -3250,6 +3250,11 @@ css-declaration-sorter@^4.0.1:
     postcss "^7.0.1"
     timsort "^0.3.0"
 
+css-in-js-media@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/css-in-js-media/-/css-in-js-media-1.0.7.tgz#34e0209a8cae21b77a5e95af3f35652a26e47ea1"
+  integrity sha512-ifz/0OJ50b86MEuvFdmFoqEF0wOrIeAfZuTSglhGRe7KTCqrKYOIs52hJkXalEQjp5aqy9p9bTy0KS9yRuz0oA==
+
 css-loader@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-1.0.1.tgz#6885bb5233b35ec47b006057da01cc640b6b79fe"

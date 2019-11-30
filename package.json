@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Choo827 <choo82742@gmail.com>, NoMoreViolence <ljh86029926@gmail.com>",
   "dependencies": {
+    "css-in-js-media": "^1.0.7",
     "gatsby": "^2.18.4",
     "gatsby-cli": "^2.8.14",
     "gatsby-image": "^2.2.34",

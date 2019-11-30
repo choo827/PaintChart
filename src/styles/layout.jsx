@@ -1,8 +1,8 @@
-import { css } from "styled-components"
+import { css } from 'styled-components';
 
 export const layout = css`
-  padding-right: 15rem;
-  padding-left: 15rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
   @media screen and (max-width: 425px) {
     padding-right: 1rem;
     padding-left: 1rem;
@@ -15,4 +15,4 @@ export const layout = css`
     padding-right: 5rem;
     padding-left: 5rem;
   }
-`
+`;
