@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { invertColor, copyText } from './../helper';
+import { invertColor, copyText } from '../helper';
 import { Blackpink } from './../data/file.json';
 
 import styled from 'styled-components';
-import { PageContainer, PageImage, PageTitle, PageAuthor } from './../styles';
+import { PageContainer, PageImage, PageTitle, PageAuthor } from '../styles';
 
 const files = Object.entries(Blackpink.props);
 

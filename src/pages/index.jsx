@@ -19,8 +19,8 @@ const IndexPage = () => {
   const renderFile = useMemo(
     () =>
       file.map(file => (
-        <ItemBoxContainer key={file[0]}>
-          <ItemBox to={`/${file[0]}`}>
+        <ItemBoxContainer key={file[0].toLowerCase()}>
+          <ItemBox to={`/${file[0].toLowerCase()}`}>
             <ItemBoxImage width="300" height="150" src={file[1].imageUrl} />
             <ItemBoxSpan>{file[0]}</ItemBoxSpan>
           </ItemBox>

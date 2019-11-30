@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import Header from './header';
 import { StyledA, layout } from './../styles';
+import { GlobalCss } from './global';
 import './layout.css';
 
 const Layout = props => {
@@ -20,6 +21,7 @@ const Layout = props => {
 
   return (
     <Container>
+      <GlobalCss />
       <Header siteTitle={data.site.siteMetadata.title} />
 
       <Main>{children}</Main>
