@@ -1,42 +1,42 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from "styled-components"
+import { layout } from "../styles/layout"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+const Header = () => (
+  <StyledHeader>
+    <PropertyContainer>
+      <Link style={{ fontSize: "1.25rem" }} className="logo" to="/">
+        <strong>PaintChart</strong>
+      </Link>
+      <ul style={{ display: "flex", listStyle: "none" }}>
+        <li>
+          <Link to="/how-2-use">
+            <strong>How to use?</strong>
+          </Link>
+        </li>
+      </ul>
+    </PropertyContainer>
+  </StyledHeader>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
+const StyledHeader = styled.header`
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+`
+const PropertyContainer = styled.div`
+  ${layout}
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
 
 export default Header
