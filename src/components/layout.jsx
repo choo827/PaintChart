@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import Header from './header';
 import { StyledA, layout } from './../styles';
 import { GlobalCss } from './global';
-import './layout.css';
+import './global.css';
 
 const Layout = props => {
   const { children } = props;
@@ -51,7 +51,7 @@ const Layout = props => {
 
 const Container = styled.div`
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: stretch;

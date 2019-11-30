@@ -1,10 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalCss = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css?family=Alata&display=swap");
-  body {
-    font-family: "Alata", sans-serif;
-  }
   html {
     /* font-family: sans-serif; */
     -ms-text-size-adjust: 100%;

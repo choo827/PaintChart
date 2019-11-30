@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { invertColor, copyText } from '../helper';
@@ -30,17 +30,17 @@ const BlackpinkComponent = () => {
   );
 };
 
-const RenderItems = ({ file }) => {
-  return file.map(item => (
+const RenderItems = ({ file }) =>
+  file.map(item => (
     <RenderItemBox key={item[0]}>
       <RenderItemTitle>{item[0]}</RenderItemTitle>
       <RenderItemTitle>-</RenderItemTitle>
+
       {Object.entries(item[1]).map((specific, idx) => (
         <RenderSpecific title={specific[0]} dataArray={specific[1]} key={idx} />
       ))}
     </RenderItemBox>
   ));
-};
 const RenderItemBox = styled.div`
   width: 350px;
   margin-right: auto;
@@ -54,35 +54,33 @@ const RenderItemTitle = styled.span`
   font-weight: bold;
 `;
 
-const RenderSpecific = ({ title, dataArray }) => {
-  return (
-    <RenderSpecificContainer>
-      <RenderSpecificContainerTitle>{title}</RenderSpecificContainerTitle>
-      {title === 'Color' ? (
-        <RenderSpecificItemContainer>
-          {dataArray.map((s, idx) => (
-            <RenderSpecificItemColorContainer key={idx}>
-              <RenderSpecificContainerItem color={s}>
-                {s}
-              </RenderSpecificContainerItem>
-              <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
-                Copy
-              </RenderSpecificContainerCopyButton>
-            </RenderSpecificItemColorContainer>
-          ))}
-        </RenderSpecificItemContainer>
-      ) : (
-        <RenderSpecificItemContainer>
-          {dataArray.map((s, idx) => (
-            <RenderSpecificContainerItem key={idx}>
+const RenderSpecific = ({ title, dataArray }) => (
+  <RenderSpecificContainer>
+    <RenderSpecificContainerTitle>{title}</RenderSpecificContainerTitle>
+    {title === 'Color' ? (
+      <RenderSpecificItemContainer>
+        {dataArray.map((s, idx) => (
+          <RenderSpecificItemColorContainer key={idx}>
+            <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-          ))}
-        </RenderSpecificItemContainer>
-      )}
-    </RenderSpecificContainer>
-  );
-};
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+              Copy
+            </RenderSpecificContainerCopyButton>
+          </RenderSpecificItemColorContainer>
+        ))}
+      </RenderSpecificItemContainer>
+    ) : (
+      <RenderSpecificItemContainer>
+        {dataArray.map((s, idx) => (
+          <RenderSpecificContainerItem key={idx}>
+            {s}
+          </RenderSpecificContainerItem>
+        ))}
+      </RenderSpecificItemContainer>
+    )}
+  </RenderSpecificContainer>
+);
 
 const RenderSpecificContainer = styled.div`
   margin-top: 24px;
@@ -132,4 +130,4 @@ const StyledContainer = styled.div`
   flex-wrap: wrap;
 `;
 
-export default BlackpinkComponent;
+export default memo(BlackpinkComponent);
