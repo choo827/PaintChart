@@ -5,8 +5,17 @@ import { layout, StyledA } from './../styles';
 const BuyMeACoffee = () => (
   <BuyMeACoffeeDiv>
     <BuyMeACoffeeTitle>Do you like this site?</BuyMeACoffeeTitle>
-    <BuyMeACoffeeSubTitle>
-      If you like this site. 🎈 Buy developer a coffee to cheer! 🎉
+    <BuyMeACoffeeSubTitle role="img">
+      If you like this site.
+      <span role="img" aria-label="circle">
+        {' '}
+        🎈{' '}
+      </span>
+      Buy developer a coffee to cheer!
+      <span role="img" aria-label="missile">
+        {' '}
+        🎉{' '}
+      </span>
     </BuyMeACoffeeSubTitle>
 
     <StyledA href="https://www.buymeacoffee.com/zGZMr2P" target="_blank">
@@ -16,7 +25,7 @@ const BuyMeACoffee = () => (
         height="51"
         src="https://cdn.buymeacoffee.com/buttons/default-black.png"
         alt="Buy Me A Coffee"
-      ></img>
+      />
     </StyledA>
   </BuyMeACoffeeDiv>
 );
