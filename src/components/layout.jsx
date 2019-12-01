@@ -1,9 +1,9 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import styled from 'styled-components';
 
 import Header from './header';
-import { StyledA, layout } from './../styles';
+import { layout, StyledA } from './../styles';
 import { GlobalCss } from './global';
 import './global.css';
 
@@ -21,27 +21,18 @@ const Layout = props => {
 
   return (
     <Container>
-      <GlobalCss />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <GlobalCss/>
+      <Header siteTitle={data.site.siteMetadata.title}/>
 
       <Main>{children}</Main>
 
       <Footer>
         <FooterText>
-          © PaintChart {new Date().getFullYear()}, Built with{' '}
-          <StyledA
-            fontWeight={'bold'}
-            color="skyblue"
-            href="https://www.gatsbyjs.org"
-          >
-            Gatsby
-          </StyledA>
-          <br />
-          Made with ❤ in Seoul
+          <strong>PaintChart © {new Date().getFullYear()} All Rights Reserved.<br />Made with ❤ in Seoul</strong>
         </FooterText>
         <div>
           <StyledA href="https://www.facebook.com/paintchart/">
-            <img alt="facebook" src="/img/icon/fb.svg" width="24" height="24" />
+            <img alt="facebook" src="/img/icon/fb.svg" width="24" height="24"/>
           </StyledA>
         </div>
       </Footer>
@@ -61,17 +52,16 @@ const Main = styled.main`
   ${layout}
 `;
 const Footer = styled.footer`
-  ${layout}
-  padding-top: 24px;
-  padding-bottom: 24px;
+  // ${layout}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  background: #000000;
   color: #ffffff;
+  padding: 2rem 15rem;
 `;
 const FooterText = styled.div`
-  line-height: 2;
+  line-height: 1.5;
 `;
 
 export default Layout;

@@ -3,17 +3,13 @@ import styled from 'styled-components';
 export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 4rem;
 `;
 
 export const PageImage = styled.img`
   width: 100%;
   margin-bottom: 3rem;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 `;
 
 export const PageTitle = styled.span`

@@ -26,18 +26,19 @@ const Header = () => (
 
 const StyledHeader = styled.header`
   width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  height: 3.5rem;
   display: flex;
   align-items: center;
   position: sticky;
   top: 0;
   background-color: #ffffff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
 `;
 const PropertyContainer = styled.div`
-  ${layout}
+  // ${layout}
   width: 100%;
+  margin-left: 15rem;
+  margin-right: 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

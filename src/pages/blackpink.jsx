@@ -1,11 +1,11 @@
-import React, { useState, memo } from 'react';
+import React, { memo, useState } from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { invertColor, copyText } from '../helper';
-import { Blackpink } from './../data/file.json';
+import { copyText, invertColor } from '../helper';
+import { Blackpink } from '../data/themes.json';
 
 import styled from 'styled-components';
-import { PageContainer, PageImage, PageTitle, PageAuthor } from '../styles';
+import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
 
 const files = Object.entries(Blackpink.props);
 
@@ -14,17 +14,16 @@ const BlackpinkComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Blackpink" />
+      <SEO title="Blackpink"/>
       <PageContainer>
-        <PageImage src={`/${Blackpink.backgroundUrl}`} />
+        <PageImage src={`/${Blackpink.backgroundUrl}`}/>
         <PageTitle>Blackpink</PageTitle>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
-          <RenderItems file={file} />
+          <RenderItems file={file}/>
         </StyledContainer>
 
-        {/* 이 공간에 Bye me a coffee 작성 다른곳은 건드리면 터질듯 */}
       </PageContainer>
     </Layout>
   );
@@ -37,15 +36,13 @@ const RenderItems = ({ file }) =>
       <RenderItemTitle>-</RenderItemTitle>
 
       {Object.entries(item[1]).map((specific, idx) => (
-        <RenderSpecific title={specific[0]} dataArray={specific[1]} key={idx} />
+        <RenderSpecific title={specific[0]} dataArray={specific[1]} key={idx}/>
       ))}
     </RenderItemBox>
   ));
 const RenderItemBox = styled.div`
-  width: 350px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10rem;
+  width: 18.75rem;
+  margin: 5rem 2rem;
 `;
 const RenderItemTitle = styled.span`
   display: flex;
@@ -113,21 +110,25 @@ const RenderSpecificContainerItem = styled.span`
   padding-left: 2px;
 `;
 const RenderSpecificContainerCopyButton = styled.button`
-  margin-top: 2rem;
-  width: 80px;
+  margin-top: 1rem;
+  width: 64px;
+  height: 42px;
+  box-sizing: border-box;
   cursor: pointer;
   border: none;
   outline: none;
   background-color: black;
-  color: white;
-  padding: 8px;
-  border-radius: 4px;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 0.5rem;
   font-weight: bold;
 `;
 
 const StyledContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 8rem;
 `;
 
 export default memo(BlackpinkComponent);
