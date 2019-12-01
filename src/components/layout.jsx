@@ -52,7 +52,7 @@ const Main = styled.main`
   ${layout}
 `;
 const Footer = styled.footer`
-  // ${layout}
+  ${layout}
   display: flex;
   justify-content: space-between;
   align-items: center;

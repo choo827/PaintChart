@@ -21,7 +21,7 @@ export const PageTitle = styled.span`
 export const PageAuthor = styled.span`
   display: flex;
   margin-top: 0.5rem;
-  margin-bottom: 8rem;
+  margin-bottom: 1.25rem;
   font-size: 1.25rem;
   font-weight: bold;
 `;

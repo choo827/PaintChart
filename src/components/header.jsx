@@ -35,10 +35,8 @@ const StyledHeader = styled.header`
   box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
 `;
 const PropertyContainer = styled.div`
-  // ${layout}
+  ${layout}
   width: 100%;
-  margin-left: 15rem;
-  margin-right: 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
