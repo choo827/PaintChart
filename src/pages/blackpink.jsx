@@ -80,7 +80,7 @@ const RenderSpecific = ({ title, dataArray }) => (
 );
 
 const RenderSpecificContainer = styled.div`
-  margin-top: 24px;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
 `;
