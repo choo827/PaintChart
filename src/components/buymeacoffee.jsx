@@ -16,7 +16,6 @@ const BuyMeACoffee = () => (
         height="51"
         src="https://cdn.buymeacoffee.com/buttons/default-black.png"
         alt="Buy Me A Coffee"
-        class="coffee-container"
       ></img>
     </StyledA>
   </BuyMeACoffeeDiv>
