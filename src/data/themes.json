@@ -49,5 +49,1229 @@
         "Line style": ["Dotted Line"]
       }
     }
+  },
+  "Halloween": {
+    "imageUrl": "img/halloween/thumb.png",
+    "backgroundUrl": "img/halloween/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFFFFF", "#111111"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#111111"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#111111"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#FF851B"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#111111"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dashed Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#111111"],
+        "Opacity": ["100%"],
+        "Line style": ["Dashed Line"]
+      },
+      "Scales Text": {
+        "Color": ["#111111"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#111111"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["2nd"],
+        "Line style": ["Line"]
+      }
+    }
+  },
+  "Facebook": {
+    "imageUrl": "img/facebook/thumb.png",
+    "backgroundUrl": "img/facebook/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#4267B2", "#FA3E3E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#4267B2", "#FA3E3E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#4267B2", "#FA3E3E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#E9EBEE"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#4267B2"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#4267B2"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#4267B2"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Discord": {
+    "imageUrl": "img/discord/thumb.png",
+    "backgroundUrl": "img/discord/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#7289DA", "#F04747"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#7289DA", "#F04747"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#7289DA", "#F04747"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["2nd"]
+      },
+      "Background": {
+        "Color": ["#2F3136"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#72767D"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#72767D"],
+        "Opacity": ["100%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#72767D"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#72767D"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Latte": {
+    "imageUrl": "img/latte/thumb.png",
+    "backgroundUrl": "img/latte/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFFFFF", "#A55F41"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#A55F41"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#A55F41"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["#503434"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"]
+      },
+      "Background": {
+        "Color": ["#E6B790"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#EEF0E9"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#EEF0E9"],
+        "Opacity": ["100%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#503434"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#503434"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#503434"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Twitter": {
+    "imageUrl": "img/twitter/thumb.png",
+    "backgroundUrl": "img/twitter/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#1DA1F2", "#E0245E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#1DA1F2", "#E0245E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#1DA1F2", "#E0245E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"]
+      },
+      "Background": {
+        "Color": ["#FFFFFF"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#E6ECF0"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#E6ECF0"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#1DA1F2"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Line"]
+      }
+    }
+  },
+  "Cryptowatch": {
+    "imageUrl": "img/cryptowatch/thumb.png",
+    "backgroundUrl": "img/cryptowatch/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#000000", "#C60606"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#00B909", "#C60606"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#00B909", "#C60606"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"]
+      },
+      "Background": {
+        "Color": ["#000000"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#999999"],
+        "Opacity": ["50%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#999999"],
+        "Opacity": ["50%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#999999"],
+        "Opacity": ["50%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#999999"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#999999"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Line"]
+      }
+    }
+  },
+  "Evian": {
+    "imageUrl": "img/evian/thumb.png",
+    "backgroundUrl": "img/evian/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#007CBB", "#E1194A"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#007CBB", "#E1194A"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#007CBB", "#E1194A"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"]
+      },
+      "Background": {
+        "Color": ["#F7D8DF"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#007CBB"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#007CBB"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#007CBB"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Burger King": {
+    "imageUrl": "img/burgerking/thumb.png",
+    "backgroundUrl": "img/burgerking/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#185494", "#EE1D23"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#185494", "#EE1D23"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#185494", "#EE1D23"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#FAAF18"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Dunkin' Donuts": {
+    "imageUrl": "img/dunkin/thumb.png",
+    "backgroundUrl": "img/dunkin/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFFFFF", "#E11383"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#E11383"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#E11383"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["#683817"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#F5821F"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#683817"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#683817"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#683817"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#683817"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "UPS": {
+    "imageUrl": "img/ups/thumb.png",
+    "backgroundUrl": "img/ups/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FEBE10", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FEBE10", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FEBE10", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["2nd"]
+      },
+      "Background": {
+        "Color": ["#371400"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FEBE10"],
+        "Opacity": ["50%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FEBE10"],
+        "Opacity": ["50%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FEBE10"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FEBE10"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "GoPro": {
+    "imageUrl": "img/gopro/thumb.png",
+    "backgroundUrl": "img/gopro/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#109DD9", "#075DAA"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#109DD9", "#075DAA"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#109DD9", "#075DAA"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#E8E8EA"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Fanta": {
+    "imageUrl": "img/fanta/thumb.png",
+    "backgroundUrl": "img/fanta/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#369638", "#21662F"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#369638", "#21662F"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#369638", "#21662F"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["#11246F"],
+        "Opacity": ["100%"],
+        "Thickness": ["2nd"]
+      },
+      "Background": {
+        "Color": ["#FF8300"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Pepsi": {
+    "imageUrl": "img/pepsi/thumb.png",
+    "backgroundUrl": "img/pepsi/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#004B93", "#C9002B"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#005CB4"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Papa John's": {
+    "imageUrl": "img/papa/thumb.png",
+    "backgroundUrl": "img/papa/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFFFFF", "#DA102E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#DA102E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#DA102E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#008E6A"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Slack": {
+    "imageUrl": "img/slack/thumb.png",
+    "backgroundUrl": "img/slack/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#2EB67D", "#ECB22E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#2EB67D", "#ECB22E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#2EB67D", "#ECB22E"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#4A154B"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Spotify": {
+    "imageUrl": "img/spotify/thumb.png",
+    "backgroundUrl": "img/spotify/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFFFFF", "#000000"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#000000"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#000000"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"]
+      },
+      "Background": {
+        "Color": ["#1DB954"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Microsoft": {
+    "imageUrl": "img/microsoft/thumb.png",
+    "backgroundUrl": "img/microsoft/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#7FBA00", "#F25022"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#7FBA00", "#F25022"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#7FBA00", "#F25022"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#008E6A"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#737373"],
+        "Opacity": ["50%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#737373"],
+        "Opacity": ["50%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#737373"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#737373"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#737373"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Starbucks": {
+    "imageUrl": "img/starbucks/thumb.png",
+    "backgroundUrl": "img/starbucks/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFFFFF", "#000000"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#000000"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#000000"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#00704A"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["50%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["50%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "SpongeBob": {
+    "imageUrl": "img/spongebob/thumb.png",
+    "backgroundUrl": "img/spongebob/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFF56C", "#0457A0"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFF56C", "#0457A0"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFF56C", "#0457A0"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#26B9C8"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "McDonald's": {
+    "imageUrl": "img/mcdonalds/thumb.png",
+    "backgroundUrl": "img/mcdonalds/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFC72C", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFC72C", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFC72C", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#DA291C"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFC72C"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dashed Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFC72C"],
+        "Opacity": ["100%"],
+        "Line style": ["Dashed Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFC72C"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFC72C"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Line"]
+      }
+    }
+  },
+  "Twitch": {
+    "imageUrl": "img/papa/thumb.png",
+    "backgroundUrl": "img/papa/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FFFFFF", "#000000"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"]
+      },
+      "Background": {
+        "Color": ["#6441A4"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["50%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["50%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Fedex": {
+    "imageUrl": "img/fedex/thumb.png",
+    "backgroundUrl": "img/fedex/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#FF6600", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FF6600", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FF6600", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"]
+      },
+      "Background": {
+        "Color": ["#660099"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Mountain Dew": {
+    "imageUrl": "img/mountaindew/thumb.png",
+    "backgroundUrl": "img/mountaindew/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#07703C", "#ED1A37"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#FFFFFF", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#FFFFFF", "#FFFFFF"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#94C93D"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Line Style": ["Dotted Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Line style": ["Dotted Line"]
+      },
+      "Scales Text": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#000000"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
+  },
+  "Sprite": {
+    "imageUrl": "img/sprite/thumb.png",
+    "backgroundUrl": "img/sprite/bg.png",
+    "props": {
+      "Candles": {
+        "Color": ["#1E5CB3", "#FFF100"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Borders": {
+        "Color": ["#1E5CB3", "#FFF100"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Wick": {
+        "Color": ["#1E5CB3", "#FFF100"],
+        "Opacity": ["100%", "100%"]
+      },
+      "Last Value Line": {
+        "Color": ["Default"],
+        "Opacity": ["100%"],
+        "Thickness": ["3rd"]
+      },
+      "Background": {
+        "Color": ["#00A65F"]
+      },
+      "Vert Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["50%"],
+        "Line Style": ["Line"]
+      },
+      "Horizontal Grid Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["50%"],
+        "Line style": ["Line"]
+      },
+      "Scales Text": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"],
+        "Text Size": ["12"]
+      },
+      "Scales Lines": {
+        "Color": ["#FFFFFF"],
+        "Opacity": ["100%"]
+      },
+      "Crosshair": {
+        "Color": ["#FFF100"],
+        "Opacity": ["100%"],
+        "Thickness": ["1st"],
+        "Line style": ["Dashed Line"]
+      }
+    }
   }
 }
