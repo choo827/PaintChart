@@ -3,22 +3,22 @@ import BuyMeACoffee from '../components/buymeacoffee';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { copyText, invertColor } from '../helper';
-import { Blackpink } from '../data/themes.json';
+import { PapaJohns } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
 
-const files = Object.entries(Blackpink.props);
+const files = Object.entries(PapaJohns.props);
 
-const BlackpinkComponent = () => {
+const PapaJohnsComponent = () => {
   const [file] = useState(files);
 
   return (
     <Layout>
-      <SEO title="Blackpink" />
+      <SEO title="PapaJohns" />
       <PageContainer>
-        <PageImage src={`/${Blackpink.backgroundUrl}`} />
-        <PageTitle>Blackpink</PageTitle>
+        <PageImage src={`/${PapaJohns.backgroundUrl}`} />
+        <PageTitle>PapaJohns</PageTitle>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -134,4 +134,4 @@ const StyledContainer = styled.div`
   margin-top: 8rem;
 `;
 
-export default memo(BlackpinkComponent);
+export default memo(PapaJohnsComponent);

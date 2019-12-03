@@ -20,7 +20,7 @@ const IndexPage = () => {
     () =>
       file.map(file => (
         <ItemBoxContainer key={file[0].toLowerCase()}>
-          <ItemBox to={`/${file[0].toLowerCase()}`}>
+          <ItemBox to={`/${file[0].trim().toLowerCase()}`}>
             <ItemBoxImage width="128" height="128" src={file[1].imageUrl} />
             <ItemBoxSpan>{file[0]}</ItemBoxSpan>
           </ItemBox>

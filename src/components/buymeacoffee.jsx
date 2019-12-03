@@ -4,9 +4,9 @@ import { layout, StyledA } from './../styles';
 
 const BuyMeACoffee = () => (
   <BuyMeACoffeeDiv>
-    <BuyMeACoffeeTitle>Do you like this site?</BuyMeACoffeeTitle>
+    <BuyMeACoffeeTitle>Do you like this theme?</BuyMeACoffeeTitle>
     <BuyMeACoffeeSubTitle role="img">
-      If you like this site.
+      If you like this theme.
       <span role="img" aria-label="circle">
         {' '}
         🎈{' '}

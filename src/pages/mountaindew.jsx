@@ -3,22 +3,22 @@ import BuyMeACoffee from '../components/buymeacoffee';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { copyText, invertColor } from '../helper';
-import { Blackpink } from '../data/themes.json';
+import { MountainDew } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
 
-const files = Object.entries(Blackpink.props);
+const files = Object.entries(MountainDew.props);
 
-const BlackpinkComponent = () => {
+const MountainDewComponent = () => {
   const [file] = useState(files);
 
   return (
     <Layout>
-      <SEO title="Blackpink" />
+      <SEO title="MountainDew" />
       <PageContainer>
-        <PageImage src={`/${Blackpink.backgroundUrl}`} />
-        <PageTitle>Blackpink</PageTitle>
+        <PageImage src={`/${MountainDew.backgroundUrl}`} />
+        <PageTitle>MountainDew</PageTitle>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -104,7 +104,8 @@ const RenderSpecificContainerItem = styled.span`
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
-  color: ${({ color }) => (color ? color === 'Default' ? 'black' : invertColor(color) : 'black')};
+  color: ${({ color }) =>
+    color ? (color === 'Default' ? 'black' : invertColor(color)) : 'black'};
   ${({ color }) => (color ? `background-color: ${color};` : '')}
   padding-top: 5px;
   padding-bottom: 5px;
@@ -134,4 +135,4 @@ const StyledContainer = styled.div`
   margin-top: 8rem;
 `;
 
-export default memo(BlackpinkComponent);
+export default memo(MountainDewComponent);

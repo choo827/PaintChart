@@ -3,22 +3,22 @@ import BuyMeACoffee from '../components/buymeacoffee';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { copyText, invertColor } from '../helper';
-import { Blackpink } from '../data/themes.json';
+import { Facebook } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
 
-const files = Object.entries(Blackpink.props);
+const files = Object.entries(Facebook.props);
 
-const BlackpinkComponent = () => {
+const FacebookComponent = () => {
   const [file] = useState(files);
 
   return (
     <Layout>
-      <SEO title="Blackpink" />
+      <SEO title="Facebook" />
       <PageContainer>
-        <PageImage src={`/${Blackpink.backgroundUrl}`} />
-        <PageTitle>Blackpink</PageTitle>
+        <PageImage src={`/${Facebook.backgroundUrl}`} />
+        <PageTitle>Facebook</PageTitle>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -134,4 +134,4 @@ const StyledContainer = styled.div`
   margin-top: 8rem;
 `;
 
-export default memo(BlackpinkComponent);
+export default memo(FacebookComponent);

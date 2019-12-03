@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 import Header from './header';
 import { layout, StyledA } from './../styles';
-import BuyMeACoffee from './buymeacoffee';
 import { GlobalCss } from './global';
 import './global.css';
 
@@ -26,8 +25,6 @@ const Layout = props => {
       <Header siteTitle={data.site.siteMetadata.title} />
 
       <Main>{children}</Main>
-
-      <BuyMeACoffee />
 
       <Footer>
         <FooterText>
