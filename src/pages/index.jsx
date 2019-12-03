@@ -11,7 +11,14 @@ import {
   ItemBoxSpan,
 } from './../styles';
 
-const files = Object.entries(file);
+const files = Object.entries(file).sort((a, b) => {
+  if (a[0].toLowerCase() > b[0].toLowerCase()) {
+    return 1;
+  } else if (a[0].toLowerCase() < b[0].toLowerCase()) {
+    return -1;
+  }
+  return 1;
+});
 
 const IndexPage = () => {
   const [file] = useState(files);
