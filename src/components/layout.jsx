@@ -62,6 +62,7 @@ const Footer = styled.footer`
   color: #ffffff;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-top: 10rem;
 `;
 const FooterText = styled.div`
   line-height: 1.5;
