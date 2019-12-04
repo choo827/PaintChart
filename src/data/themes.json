@@ -1072,8 +1072,8 @@
     }
   },
   "Twitch": {
-    "imageUrl": "img/papa/thumb.png",
-    "backgroundUrl": "img/papa/bg.png",
+    "imageUrl": "img/twitch/thumb.png",
+    "backgroundUrl": "img/twitch/bg.png",
     "props": {
       "Candles": {
         "Color": ["#FFFFFF", "#000000"],
