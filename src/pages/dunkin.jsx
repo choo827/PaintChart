@@ -3,22 +3,22 @@ import BuyMeACoffee from '../components/buymeacoffee';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { copyText, invertColor } from '../helper';
-import { DunkinDonuts } from '../data/themes.json';
+import { Dunkin } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
 
-const files = Object.entries(DunkinDonuts.props);
+const files = Object.entries(Dunkin.props);
 
-const DunkinDonutsComponent = () => {
+const DunkinComponent = () => {
   const [file] = useState(files);
 
   return (
     <Layout>
-      <SEO title="DunkinDonuts" />
+      <SEO title="Dunkin" />
       <PageContainer>
-        <PageImage src={`/${DunkinDonuts.backgroundUrl}`} />
-        <PageTitle>DunkinDonuts</PageTitle>
+        <PageImage src={`/${Dunkin.backgroundUrl}`} />
+        <PageTitle>Dunkin</PageTitle>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -134,4 +134,4 @@ const StyledContainer = styled.div`
   margin-top: 8rem;
 `;
 
-export default memo(DunkinDonutsComponent);
+export default memo(DunkinComponent);
