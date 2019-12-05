@@ -4,6 +4,7 @@ import { layout, StyledA } from './../styles';
 
 const BuyMeACoffee = () => (
   <BuyMeACoffeeDiv>
+    <BuyMeACoffeeDivider>-</BuyMeACoffeeDivider>
     <BuyMeACoffeeTitle>Do you like this theme?</BuyMeACoffeeTitle>
     <BuyMeACoffeeSubTitle role="img">
       If you like this theme.
@@ -20,7 +21,7 @@ const BuyMeACoffee = () => (
 
     <StyledA href="https://www.buymeacoffee.com/zGZMr2P" target="_blank">
       <img
-        style={{ borderRadius: '4px' }}
+        style={{ borderRadius: '0.25rem' }}
         width="217"
         height="51"
         src="https://cdn.buymeacoffee.com/buttons/default-black.png"
@@ -35,23 +36,27 @@ const BuyMeACoffeeDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+`;
+
+const BuyMeACoffeeDivider = styled.div`
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 3rem;
 `;
 
 const BuyMeACoffeeTitle = styled.span`
   font-weight: bold;
   font-size: 2rem;
-
   margin-bottom: 2rem;
 `;
 
 const BuyMeACoffeeSubTitle = styled.span`
   font-weight: bold;
   font-size: 1.25rem;
-
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
 `;
 
 export default BuyMeACoffee;
