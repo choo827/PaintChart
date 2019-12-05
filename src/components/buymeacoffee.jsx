@@ -56,7 +56,7 @@ const BuyMeACoffeeTitle = styled.span`
 const BuyMeACoffeeSubTitle = styled.span`
   font-weight: bold;
   font-size: 1.25rem;
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 `;
 
 export default BuyMeACoffee;

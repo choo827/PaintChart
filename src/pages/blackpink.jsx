@@ -89,12 +89,11 @@ const RenderSpecificContainer = styled.div`
 const RenderSpecificContainerTitle = styled.span`
   font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 0.75rem;
 `;
 const RenderSpecificItemContainer = styled.div`
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 2rem;
+  margin: 1rem 1rem 1rem 3rem;
 `;
 const RenderSpecificItemColorContainer = styled.div`
   display: flex;
