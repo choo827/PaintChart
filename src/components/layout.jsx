@@ -21,22 +21,27 @@ const Layout = props => {
 
   return (
     <Container>
-      <GlobalCss />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <GlobalCss/>
+      <Header siteTitle={data.site.siteMetadata.title}/>
 
       <Main>{children}</Main>
 
       <Footer>
         <FooterText>
           PaintChart © {new Date().getFullYear()} All Rights Reserved.
-          <br />
+          <br/>
           Made with ❤ in Seoul
         </FooterText>
-        <div>
+        <FollowContainer>
+          <TwitterContainer>
+            <StyledA href="https://twitter.com/PaintChart">
+              <img alt="twitter" src="/img/icon/twitter.svg" width="32"/>
+            </StyledA>
+          </TwitterContainer>
           <StyledA href="https://www.facebook.com/paintchart/">
-            <img alt="facebook" src="/img/icon/fb.svg" width="24" height="24" />
+            <img alt="facebook" src="/img/icon/fb.svg" width="32"/>
           </StyledA>
-        </div>
+        </FollowContainer>
       </Footer>
     </Container>
   );
@@ -67,6 +72,13 @@ const Footer = styled.footer`
 const FooterText = styled.div`
   line-height: 1.5;
   font-weight: bold;
+`;
+const TwitterContainer = styled.div`
+  padding-right: 1.5rem;
+`;
+
+const FollowContainer = styled.div`
+  display: flex;
 `;
 
 export default Layout;
