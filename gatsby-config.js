@@ -3,6 +3,7 @@ module.exports = {
     title: `PaintChart`,
     description: `TradingView themes`,
     author: `choo827, NoMoreViolence`,
+    siteUrl: `https://paintchart.app`,
   },
   plugins: [
     {
@@ -52,7 +53,16 @@ module.exports = {
         gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
         dataLayerName: "YOUR_DATA_LAYER_NAME",
       },
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://paintchart.app/',
+        sitemap: 'https://paintchart.app/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
