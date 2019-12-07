@@ -25,6 +25,7 @@ function SEO({ description, lang, meta, title, image }) {
         lang,
       }}
       title={title}
+      titleTemplate={"%s - PaintChart"}
       meta={[
         {
           name: `description`,
