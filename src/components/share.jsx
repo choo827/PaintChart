@@ -23,14 +23,17 @@ const Share = (props) => (
 							width="32"/>
 				</TwitterShareButton>
 			</TwitterWrapper>
-			<FacebookShareButton
-					url={props.url}
-					title={props.title}>
-				<img
-						alt="facebook"
-						src="/img/icon/fb_b.svg"
-						width="32"/>
-			</FacebookShareButton>
+			<FacebookWrapper>
+				<FacebookShareButton
+						url={props.url}
+						title={props.title}>
+					<img
+							role="button"
+							alt="facebook"
+							src="/img/icon/fb_b.svg"
+							width="32"/>
+				</FacebookShareButton>
+			</FacebookWrapper>
 		</SocialShareContainer>
 );
 
@@ -40,6 +43,10 @@ const SocialShareContainer = styled.div`
 
 const TwitterWrapper = styled.div`
   margin-right: 0.5rem;
+  cursor: pointer;
+`;
+const FacebookWrapper = styled.div`
+  cursor: pointer;
 `;
 
 export default Share;
