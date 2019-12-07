@@ -7,41 +7,47 @@ import { Blackpink } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Blackpink.props);
 
 const BlackpinkComponent = () => {
-  const [file] = useState(files);
+	const [file] = useState(files);
 
-  return (
-    <Layout>
-      <SEO title="Blackpink" />
-      <PageContainer>
-        <PageImage src={`/${Blackpink.backgroundUrl}`} />
-        <PageTitle>Blackpink</PageTitle>
-        <PageAuthor>by PaintChart</PageAuthor>
+	return (
+			<Layout>
+				<SEO title="Blackpink - PaintChart"/>
+				<PageContainer>
+					<PageImage src={`/${Blackpink.backgroundUrl}`}/>
+					<TitleShareContainer>
+						<PageTitle>Blackpink</PageTitle>
+						<Share
+								url="https://paintchart.app/blackpink"
+								title="Blackpink - PaintChart"
+						/>
+					</TitleShareContainer>
+					<PageAuthor>by PaintChart</PageAuthor>
+					<StyledContainer>
+						<RenderItems file={file}/>
+					</StyledContainer>
+				</PageContainer>
 
-        <StyledContainer>
-          <RenderItems file={file} />
-        </StyledContainer>
-      </PageContainer>
-
-      <BuyMeACoffee />
-    </Layout>
-  );
+				<BuyMeACoffee/>
+			</Layout>
+	);
 };
 
 const RenderItems = ({ file }) =>
-  file.map(item => (
-    <RenderItemBox key={item[0]}>
-      <RenderItemTitle>{item[0]}</RenderItemTitle>
-      <RenderItemTitle>-</RenderItemTitle>
+		file.map(item => (
+				<RenderItemBox key={item[0]}>
+					<RenderItemTitle>{item[0]}</RenderItemTitle>
+					<RenderItemTitle>-</RenderItemTitle>
 
-      {Object.entries(item[1]).map((specific, idx) => (
-        <RenderSpecific title={specific[0]} dataArray={specific[1]} key={idx} />
-      ))}
-    </RenderItemBox>
-  ));
+					{Object.entries(item[1]).map((specific, idx) => (
+							<RenderSpecific title={specific[0]} dataArray={specific[1]} key={idx}/>
+					))}
+				</RenderItemBox>
+		));
 const RenderItemBox = styled.div`
   width: 18.75rem;
   margin: 5rem 2rem;
@@ -54,31 +60,31 @@ const RenderItemTitle = styled.span`
 `;
 
 const RenderSpecific = ({ title, dataArray }) => (
-  <RenderSpecificContainer>
-    <RenderSpecificContainerTitle>{title}</RenderSpecificContainerTitle>
-    {title === 'Color' ? (
-      <RenderSpecificItemContainer>
-        {dataArray.map((s, idx) => (
-          <RenderSpecificItemColorContainer key={idx}>
-            <RenderSpecificContainerItem color={s}>
-              {s}
-            </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
-              Copy
-            </RenderSpecificContainerCopyButton>
-          </RenderSpecificItemColorContainer>
-        ))}
-      </RenderSpecificItemContainer>
-    ) : (
-      <RenderSpecificItemContainer>
-        {dataArray.map((s, idx) => (
-          <RenderSpecificContainerItem key={idx}>
-            {s}
-          </RenderSpecificContainerItem>
-        ))}
-      </RenderSpecificItemContainer>
-    )}
-  </RenderSpecificContainer>
+		<RenderSpecificContainer>
+			<RenderSpecificContainerTitle>{title}</RenderSpecificContainerTitle>
+			{title === 'Color' ? (
+					<RenderSpecificItemContainer>
+						{dataArray.map((s, idx) => (
+								<RenderSpecificItemColorContainer key={idx}>
+									<RenderSpecificContainerItem color={s}>
+										{s}
+									</RenderSpecificContainerItem>
+									<RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+										Copy
+									</RenderSpecificContainerCopyButton>
+								</RenderSpecificItemColorContainer>
+						))}
+					</RenderSpecificItemContainer>
+			) : (
+					<RenderSpecificItemContainer>
+						{dataArray.map((s, idx) => (
+								<RenderSpecificContainerItem key={idx}>
+									{s}
+								</RenderSpecificContainerItem>
+						))}
+					</RenderSpecificItemContainer>
+			)}
+		</RenderSpecificContainer>
 );
 
 const RenderSpecificContainer = styled.div`
@@ -89,11 +95,12 @@ const RenderSpecificContainer = styled.div`
 const RenderSpecificContainerTitle = styled.span`
   font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 0.75rem;
+  margin-bottom: 2rem;
 `;
 const RenderSpecificItemContainer = styled.div`
   display: flex;
-  margin: 1rem 1rem 1rem 3rem;
+  justify-content: space-around;
+  margin-bottom: 2rem;
 `;
 const RenderSpecificItemColorContainer = styled.div`
   display: flex;
@@ -103,7 +110,8 @@ const RenderSpecificContainerItem = styled.span`
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
-  color: ${({ color }) => (color ? color === 'Default' ? 'black' : invertColor(color) : 'black')};
+  color: ${({ color }) =>
+		color ? (color === 'Default' ? 'black' : invertColor(color)) : 'black'};
   ${({ color }) => (color ? `background-color: ${color};` : '')}
   padding-top: 5px;
   padding-bottom: 5px;
@@ -131,6 +139,11 @@ const StyledContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 8rem;
+`;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
 `;
 
 export default memo(BlackpinkComponent);
