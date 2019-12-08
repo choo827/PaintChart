@@ -16,7 +16,10 @@ const TwitterComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Twitter - PaintChart" />
+      <SEO 
+        title="Twitter - PaintChart" 
+        image={`https://paintchart.app/img/twitter/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Twitter.backgroundUrl}`} alt={`Twitter theme thumbnail`} />
         <TitleShareContainer>

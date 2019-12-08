@@ -16,7 +16,10 @@ const DunkinComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Dunkin - PaintChart" />
+      <SEO 
+        title="Dunkin - PaintChart" 
+        image={`https://paintchart.app/img/dunkin/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Dunkin.backgroundUrl}`} alt={`Dunkin theme thumbnail`} />
         <TitleShareContainer>

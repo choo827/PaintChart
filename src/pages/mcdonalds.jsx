@@ -16,7 +16,10 @@ const McDonaldsComponent = () => {
 
   return (
     <Layout>
-      <SEO title="McDonalds - PaintChart" />
+      <SEO 
+        title="McDonalds - PaintChart" 
+        image={`https://paintchart.app/img/mcdonalds/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${McDonalds.backgroundUrl}`} alt={`McDonalds theme thumbnail`} />
         <TitleShareContainer>

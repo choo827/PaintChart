@@ -16,7 +16,10 @@ const PapaJohnsComponent = () => {
 
   return (
     <Layout>
-      <SEO title="PapaJohns - PaintChart" />
+      <SEO 
+        title="PapaJohns - PaintChart" 
+        image={`https://paintchart.app/img/papajohns/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${PapaJohns.backgroundUrl}`} alt={`PapaJohns theme thumbnail`} />
         <TitleShareContainer>

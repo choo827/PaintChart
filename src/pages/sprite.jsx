@@ -16,7 +16,10 @@ const SpriteComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Sprite - PaintChart" />
+      <SEO 
+        title="Sprite - PaintChart" 
+        image={`https://paintchart.app/img/sprite/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Sprite.backgroundUrl}`} alt={`Sprite theme thumbnail`} />
         <TitleShareContainer>

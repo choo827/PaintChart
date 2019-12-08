@@ -16,7 +16,10 @@ const UPSComponent = () => {
 
   return (
     <Layout>
-      <SEO title="UPS - PaintChart" />
+      <SEO 
+        title="UPS - PaintChart" 
+        image={`https://paintchart.app/img/ups/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${UPS.backgroundUrl}`} alt={`UPS theme thumbnail`} />
         <TitleShareContainer>

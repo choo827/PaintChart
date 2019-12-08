@@ -16,7 +16,10 @@ const FacebookComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Facebook - PaintChart" />
+      <SEO 
+        title="Facebook - PaintChart" 
+        image={`https://paintchart.app/img/facebook/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Facebook.backgroundUrl}`} alt={`Facebook theme thumbnail`} />
         <TitleShareContainer>

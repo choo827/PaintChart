@@ -16,7 +16,10 @@ const SpotifyComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Spotify - PaintChart" />
+      <SEO 
+        title="Spotify - PaintChart" 
+        image={`https://paintchart.app/img/spotify/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Spotify.backgroundUrl}`} alt={`Spotify theme thumbnail`} />
         <TitleShareContainer>

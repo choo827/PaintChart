@@ -16,7 +16,10 @@ const HalloweenComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Halloween - PaintChart" />
+      <SEO 
+        title="Halloween - PaintChart" 
+        image={`https://paintchart.app/img/halloween/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Halloween.backgroundUrl}`} alt={`Halloween theme thumbnail`} />
         <TitleShareContainer>

@@ -16,7 +16,10 @@ const GoProComponent = () => {
 
   return (
     <Layout>
-      <SEO title="GoPro - PaintChart" />
+      <SEO 
+        title="GoPro - PaintChart" 
+        image={`https://paintchart.app/img/gopro/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${GoPro.backgroundUrl}`} alt={`GoPro theme thumbnail`} />
         <TitleShareContainer>

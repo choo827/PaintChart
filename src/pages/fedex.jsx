@@ -16,7 +16,10 @@ const FedexComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Fedex - PaintChart" />
+      <SEO 
+        title="Fedex - PaintChart" 
+        image={`https://paintchart.app/img/fedex/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Fedex.backgroundUrl}`} alt={`Fedex theme thumbnail`} />
         <TitleShareContainer>

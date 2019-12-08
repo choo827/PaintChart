@@ -16,7 +16,10 @@ const LatteComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Latte - PaintChart" />
+      <SEO 
+        title="Latte - PaintChart" 
+        image={`https://paintchart.app/img/latte/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Latte.backgroundUrl}`} alt={`Latte theme thumbnail`} />
         <TitleShareContainer>

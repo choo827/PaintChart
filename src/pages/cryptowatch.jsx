@@ -16,7 +16,10 @@ const CryptowatchComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Cryptowatch - PaintChart" />
+      <SEO 
+        title="Cryptowatch - PaintChart" 
+        image={`https://paintchart.app/img/cryptowatch/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Cryptowatch.backgroundUrl}`} alt={`Cryptowatch theme thumbnail`} />
         <TitleShareContainer>

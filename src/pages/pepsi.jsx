@@ -16,7 +16,10 @@ const PepsiComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Pepsi - PaintChart" />
+      <SEO 
+        title="Pepsi - PaintChart" 
+        image={`https://paintchart.app/img/pepsi/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Pepsi.backgroundUrl}`} alt={`Pepsi theme thumbnail`} />
         <TitleShareContainer>

@@ -16,7 +16,10 @@ const BlackpinkComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Blackpink - PaintChart" />
+      <SEO 
+        title="Blackpink - PaintChart" 
+        image={`https://paintchart.app/img/blackpink/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Blackpink.backgroundUrl}`} alt={`Blackpink theme thumbnail`} />
         <TitleShareContainer>

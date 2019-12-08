@@ -16,7 +16,10 @@ const BurgerKingComponent = () => {
 
   return (
     <Layout>
-      <SEO title="BurgerKing - PaintChart" />
+      <SEO 
+        title="BurgerKing - PaintChart" 
+        image={`https://paintchart.app/img/burgerking/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${BurgerKing.backgroundUrl}`} alt={`BurgerKing theme thumbnail`} />
         <TitleShareContainer>

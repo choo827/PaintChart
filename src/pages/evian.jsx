@@ -16,7 +16,10 @@ const EvianComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Evian - PaintChart" />
+      <SEO 
+        title="Evian - PaintChart" 
+        image={`https://paintchart.app/img/evian/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Evian.backgroundUrl}`} alt={`Evian theme thumbnail`} />
         <TitleShareContainer>

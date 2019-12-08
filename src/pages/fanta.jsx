@@ -16,7 +16,10 @@ const FantaComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Fanta - PaintChart" />
+      <SEO 
+        title="Fanta - PaintChart" 
+        image={`https://paintchart.app/img/fanta/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Fanta.backgroundUrl}`} alt={`Fanta theme thumbnail`} />
         <TitleShareContainer>

@@ -16,7 +16,10 @@ const MicrosoftComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Microsoft - PaintChart" />
+      <SEO 
+        title="Microsoft - PaintChart" 
+        image={`https://paintchart.app/img/microsoft/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Microsoft.backgroundUrl}`} alt={`Microsoft theme thumbnail`} />
         <TitleShareContainer>

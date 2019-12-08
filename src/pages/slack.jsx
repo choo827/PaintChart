@@ -16,7 +16,10 @@ const SlackComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Slack - PaintChart" />
+      <SEO 
+        title="Slack - PaintChart" 
+        image={`https://paintchart.app/img/slack/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Slack.backgroundUrl}`} alt={`Slack theme thumbnail`} />
         <TitleShareContainer>

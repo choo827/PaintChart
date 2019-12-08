@@ -16,7 +16,10 @@ const DiscordComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Discord - PaintChart" />
+      <SEO 
+        title="Discord - PaintChart" 
+        image={`https://paintchart.app/img/discord/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Discord.backgroundUrl}`} alt={`Discord theme thumbnail`} />
         <TitleShareContainer>

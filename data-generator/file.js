@@ -17,7 +17,14 @@ const ${name.split(' ').join('')}Component = () => {
 
   return (
     <Layout>
-      <SEO title="${name} - PaintChart" />
+      <SEO 
+        title="${name} - PaintChart" 
+        image={\`https://paintchart.app/img/${name
+          .split(' ')
+          .join('')
+          .trim()
+          .toLowerCase()}/bg.png\`} 
+      />
       <PageContainer>
         <PageImage src={\`/\${${name}.backgroundUrl}\`} alt={\`${name} theme thumbnail\`} />
         <TitleShareContainer>

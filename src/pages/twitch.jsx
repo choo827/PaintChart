@@ -16,7 +16,10 @@ const TwitchComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Twitch - PaintChart" />
+      <SEO 
+        title="Twitch - PaintChart" 
+        image={`https://paintchart.app/img/twitch/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Twitch.backgroundUrl}`} alt={`Twitch theme thumbnail`} />
         <TitleShareContainer>

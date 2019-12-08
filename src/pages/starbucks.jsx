@@ -16,7 +16,10 @@ const StarbucksComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Starbucks - PaintChart" />
+      <SEO 
+        title="Starbucks - PaintChart" 
+        image={`https://paintchart.app/img/starbucks/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${Starbucks.backgroundUrl}`} alt={`Starbucks theme thumbnail`} />
         <TitleShareContainer>

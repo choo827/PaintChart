@@ -16,7 +16,10 @@ const MountainDewComponent = () => {
 
   return (
     <Layout>
-      <SEO title="MountainDew - PaintChart" />
+      <SEO 
+        title="MountainDew - PaintChart" 
+        image={`https://paintchart.app/img/mountaindew/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${MountainDew.backgroundUrl}`} alt={`MountainDew theme thumbnail`} />
         <TitleShareContainer>

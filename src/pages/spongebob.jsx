@@ -16,7 +16,10 @@ const SpongeBobComponent = () => {
 
   return (
     <Layout>
-      <SEO title="SpongeBob - PaintChart" />
+      <SEO 
+        title="SpongeBob - PaintChart" 
+        image={`https://paintchart.app/img/spongebob/bg.png`} 
+      />
       <PageContainer>
         <PageImage src={`/${SpongeBob.backgroundUrl}`} alt={`SpongeBob theme thumbnail`} />
         <TitleShareContainer>
