@@ -29,7 +29,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFC0CB"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -80,7 +80,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dashed Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#111111"],
         "Opacity": ["100%"],
         "Line style": ["Dashed Line"]
@@ -131,7 +131,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -182,7 +182,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#72767D"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -233,7 +233,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#EEF0E9"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -284,7 +284,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#E6ECF0"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -335,7 +335,7 @@
         "Opacity": ["50%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#999999"],
         "Opacity": ["50%"],
         "Line style": ["Line"]
@@ -386,7 +386,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -437,7 +437,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -488,7 +488,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#683817"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -539,7 +539,7 @@
         "Opacity": ["50%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FEBE10"],
         "Opacity": ["50%"],
         "Line style": ["Line"]
@@ -590,7 +590,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -641,7 +641,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -692,7 +692,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -743,7 +743,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -794,7 +794,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -845,7 +845,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -896,7 +896,7 @@
         "Opacity": ["50%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#737373"],
         "Opacity": ["50%"],
         "Line style": ["Line"]
@@ -947,7 +947,7 @@
         "Opacity": ["50%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["50%"],
         "Line style": ["Line"]
@@ -998,7 +998,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Line"]
@@ -1049,7 +1049,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dashed Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFC72C"],
         "Opacity": ["100%"],
         "Line style": ["Dashed Line"]
@@ -1100,7 +1100,7 @@
         "Opacity": ["50%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["50%"],
         "Line style": ["Dotted Line"]
@@ -1151,7 +1151,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -1202,7 +1202,7 @@
         "Opacity": ["100%"],
         "Line Style": ["Dotted Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#000000"],
         "Opacity": ["100%"],
         "Line style": ["Dotted Line"]
@@ -1253,7 +1253,7 @@
         "Opacity": ["50%"],
         "Line Style": ["Line"]
       },
-      "Horizontal Grid Lines": {
+      "Horz Grid Lines": {
         "Color": ["#FFFFFF"],
         "Opacity": ["50%"],
         "Line style": ["Line"]

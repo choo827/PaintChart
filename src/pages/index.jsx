@@ -104,8 +104,8 @@ const StyledContainer = styled.div`
   flex-wrap: wrap;
 `;
 const SliderWrapper = styled.div`
-  margin-top: 16rem;
-  margin-bottom: 16rem;
+  margin-top: 15rem;
+  margin-bottom: 12rem;
   font-size: 3rem;
   font-weight: bold;
   display: flex;
