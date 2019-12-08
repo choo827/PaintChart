@@ -52,8 +52,18 @@ const IndexPage = () => {
         Make your own
         <Slider>
           <SlideText1 active>TradingView</SlideText1>
-          <SlideText2>Bitcoin ⛓</SlideText2>
-          <SlideText3>Stock 🔺</SlideText3>
+          <SlideText2>
+            Bitcoin
+            <span role="img" aria-label="stock" aria-labelledby="stock">
+              ⛓
+            </span>
+          </SlideText2>
+          <SlideText3>
+            Stock
+            <span role="img" aria-label="stock" aria-labelledby="stock">
+              🔺
+            </span>
+          </SlideText3>
         </Slider>
         chart.
       </SliderWrapper>
@@ -121,7 +131,7 @@ const SlideText1 = styled.div`
   box-sizing: border-box;
 `;
 
-const SlideText2 = styled.div`
+const SlideText2 = styled.span`
   background: #ff9500;
   display: flex;
   align-items: center;
@@ -134,7 +144,7 @@ const SlideText2 = styled.div`
   box-sizing: border-box;
 `;
 
-const SlideText3 = styled.div`
+const SlideText3 = styled.span`
   background: tomato;
   display: flex;
   align-items: center;

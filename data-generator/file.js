@@ -24,7 +24,7 @@ const ${name.split(' ').join('')}Component = () => {
 				    <PageTitle>${name}</PageTitle>
 						<Share
 								url={\`https://paintchart.app/${name.split(' ').join('')}\`}
-								title="Blackpink - PaintChart"
+								title="${name} - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
