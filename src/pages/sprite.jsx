@@ -22,8 +22,8 @@ const SpriteComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Sprite</PageTitle>
 						<Share
-								url={`https://paintchart.app/Sprite`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/sprite`}
+								title="Sprite - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

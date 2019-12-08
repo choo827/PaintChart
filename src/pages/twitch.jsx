@@ -22,8 +22,8 @@ const TwitchComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Twitch</PageTitle>
 						<Share
-								url={`https://paintchart.app/Twitch`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/twitch`}
+								title="Twitch - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

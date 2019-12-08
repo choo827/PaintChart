@@ -22,8 +22,8 @@ const MountainDewComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>MountainDew</PageTitle>
 						<Share
-								url={`https://paintchart.app/MountainDew`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/mountaindew`}
+								title="MountainDew - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

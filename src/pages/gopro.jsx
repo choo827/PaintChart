@@ -22,8 +22,8 @@ const GoProComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>GoPro</PageTitle>
 						<Share
-								url={`https://paintchart.app/GoPro`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/gopro`}
+								title="GoPro - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

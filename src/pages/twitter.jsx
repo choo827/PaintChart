@@ -22,8 +22,8 @@ const TwitterComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Twitter</PageTitle>
 						<Share
-								url={`https://paintchart.app/Twitter`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/twitter`}
+								title="Twitter - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

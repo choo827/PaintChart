@@ -22,8 +22,8 @@ const FantaComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Fanta</PageTitle>
 						<Share
-								url={`https://paintchart.app/Fanta`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/fanta`}
+								title="Fanta - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

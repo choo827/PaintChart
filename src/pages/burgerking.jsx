@@ -22,8 +22,8 @@ const BurgerKingComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>BurgerKing</PageTitle>
 						<Share
-								url={`https://paintchart.app/BurgerKing`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/burgerking`}
+								title="BurgerKing - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

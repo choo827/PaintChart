@@ -22,8 +22,8 @@ const SpotifyComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Spotify</PageTitle>
 						<Share
-								url={`https://paintchart.app/Spotify`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/spotify`}
+								title="Spotify - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

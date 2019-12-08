@@ -22,8 +22,8 @@ const MicrosoftComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Microsoft</PageTitle>
 						<Share
-								url={`https://paintchart.app/Microsoft`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/microsoft`}
+								title="Microsoft - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

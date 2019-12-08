@@ -22,8 +22,8 @@ const DiscordComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Discord</PageTitle>
 						<Share
-								url={`https://paintchart.app/Discord`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/discord`}
+								title="Discord - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

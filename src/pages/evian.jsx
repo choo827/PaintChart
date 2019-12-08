@@ -22,8 +22,8 @@ const EvianComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Evian</PageTitle>
 						<Share
-								url={`https://paintchart.app/Evian`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/evian`}
+								title="Evian - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

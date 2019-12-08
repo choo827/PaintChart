@@ -22,8 +22,8 @@ const CryptowatchComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Cryptowatch</PageTitle>
 						<Share
-								url={`https://paintchart.app/Cryptowatch`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/cryptowatch`}
+								title="Cryptowatch - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

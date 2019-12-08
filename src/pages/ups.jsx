@@ -22,8 +22,8 @@ const UPSComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>UPS</PageTitle>
 						<Share
-								url={`https://paintchart.app/UPS`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/ups`}
+								title="UPS - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

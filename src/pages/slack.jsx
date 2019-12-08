@@ -22,8 +22,8 @@ const SlackComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Slack</PageTitle>
 						<Share
-								url={`https://paintchart.app/Slack`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/slack`}
+								title="Slack - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

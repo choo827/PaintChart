@@ -22,7 +22,7 @@ const BlackpinkComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Blackpink</PageTitle>
 						<Share
-								url={`https://paintchart.app/Blackpink`}
+								url={`https://paintchart.app/blackpink`}
 								title="Blackpink - PaintChart"
 						/>
 				</TitleShareContainer>

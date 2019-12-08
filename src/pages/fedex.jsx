@@ -22,8 +22,8 @@ const FedexComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Fedex</PageTitle>
 						<Share
-								url={`https://paintchart.app/Fedex`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/fedex`}
+								title="Fedex - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>

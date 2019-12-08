@@ -22,8 +22,8 @@ const FacebookComponent = () => {
         <TitleShareContainer>
 				    <PageTitle>Facebook</PageTitle>
 						<Share
-								url={`https://paintchart.app/Facebook`}
-								title="Blackpink - PaintChart"
+								url={`https://paintchart.app/facebook`}
+								title="Facebook - PaintChart"
 						/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
