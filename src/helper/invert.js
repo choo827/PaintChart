@@ -13,10 +13,7 @@ export function invertColor(hex, bw) {
   var r = parseInt(hex.slice(0, 2), 16),
     g = parseInt(hex.slice(2, 4), 16),
     b = parseInt(hex.slice(4, 6), 16);
-  if (bw) {
-    // http://stackoverflow.com/a/3943023/112731
-    return r * 0.299 + g * 0.587 + b * 0.114 > 186 ? '#000000' : '#FFFFFF';
-  }
+  return r * 0.299 + g * 0.587 + b * 0.114 > 186 ? '#000000' : '#FFFFFF';
   // invert color components
   r = (255 - r).toString(16);
   g = (255 - g).toString(16);

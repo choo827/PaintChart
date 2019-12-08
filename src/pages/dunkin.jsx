@@ -7,6 +7,7 @@ import { Dunkin } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Dunkin.props);
 
@@ -15,10 +16,16 @@ const DunkinComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Dunkin" />
+      <SEO title="Dunkin - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${Dunkin.backgroundUrl}`} />
-        <PageTitle>Dunkin</PageTitle>
+        <PageImage src={`/${Dunkin.backgroundUrl}`} alt={`Dunkin theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>Dunkin</PageTitle>
+						<Share
+								url={`https://paintchart.app/Dunkin`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -133,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(DunkinComponent);

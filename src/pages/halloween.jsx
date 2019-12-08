@@ -7,6 +7,7 @@ import { Halloween } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Halloween.props);
 
@@ -15,12 +16,16 @@ const HalloweenComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Halloween"
-           description="A spooky Halloween chart theme."
-           image="https://paintchart.app/img/halloween/bg.png"/>
+      <SEO title="Halloween - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${Halloween.backgroundUrl}`} />
-        <PageTitle>Halloween</PageTitle>
+        <PageImage src={`/${Halloween.backgroundUrl}`} alt={`Halloween theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>Halloween</PageTitle>
+						<Share
+								url={`https://paintchart.app/Halloween`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -65,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -135,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(HalloweenComponent);

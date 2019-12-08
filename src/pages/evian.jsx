@@ -7,6 +7,7 @@ import { Evian } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Evian.props);
 
@@ -15,10 +16,16 @@ const EvianComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Evian" />
+      <SEO title="Evian - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${Evian.backgroundUrl}`} />
-        <PageTitle>Evian</PageTitle>
+        <PageImage src={`/${Evian.backgroundUrl}`} alt={`Evian theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>Evian</PageTitle>
+						<Share
+								url={`https://paintchart.app/Evian`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -133,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(EvianComponent);

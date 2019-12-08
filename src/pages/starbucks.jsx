@@ -7,6 +7,7 @@ import { Starbucks } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Starbucks.props);
 
@@ -15,10 +16,16 @@ const StarbucksComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Starbucks" />
+      <SEO title="Starbucks - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${Starbucks.backgroundUrl}`} />
-        <PageTitle>Starbucks</PageTitle>
+        <PageImage src={`/${Starbucks.backgroundUrl}`} alt={`Starbucks theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>Starbucks</PageTitle>
+						<Share
+								url={`https://paintchart.app/Starbucks`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -133,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(StarbucksComponent);

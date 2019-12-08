@@ -7,6 +7,7 @@ import { MountainDew } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(MountainDew.props);
 
@@ -15,10 +16,16 @@ const MountainDewComponent = () => {
 
   return (
     <Layout>
-      <SEO title="MountainDew" />
+      <SEO title="MountainDew - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${MountainDew.backgroundUrl}`} />
-        <PageTitle>MountainDew</PageTitle>
+        <PageImage src={`/${MountainDew.backgroundUrl}`} alt={`MountainDew theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>MountainDew</PageTitle>
+						<Share
+								url={`https://paintchart.app/MountainDew`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -104,8 +111,7 @@ const RenderSpecificContainerItem = styled.span`
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
-  color: ${({ color }) =>
-    color ? (color === 'Default' ? 'black' : invertColor(color)) : 'black'};
+  color: ${({ color }) => (color ? color === 'Default' ? 'black' : invertColor(color) : 'black')};
   ${({ color }) => (color ? `background-color: ${color};` : '')}
   padding-top: 5px;
   padding-bottom: 5px;
@@ -134,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(MountainDewComponent);

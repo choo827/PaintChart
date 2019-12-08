@@ -7,6 +7,7 @@ import { GoPro } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(GoPro.props);
 
@@ -15,10 +16,16 @@ const GoProComponent = () => {
 
   return (
     <Layout>
-      <SEO title="GoPro" />
+      <SEO title="GoPro - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${GoPro.backgroundUrl}`} />
-        <PageTitle>GoPro</PageTitle>
+        <PageImage src={`/${GoPro.backgroundUrl}`} alt={`GoPro theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>GoPro</PageTitle>
+						<Share
+								url={`https://paintchart.app/GoPro`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -133,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(GoProComponent);

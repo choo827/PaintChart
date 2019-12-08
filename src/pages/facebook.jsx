@@ -7,6 +7,7 @@ import { Facebook } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Facebook.props);
 
@@ -15,10 +16,16 @@ const FacebookComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Facebook" />
+      <SEO title="Facebook - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${Facebook.backgroundUrl}`} />
-        <PageTitle>Facebook</PageTitle>
+        <PageImage src={`/${Facebook.backgroundUrl}`} alt={`Facebook theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>Facebook</PageTitle>
+						<Share
+								url={`https://paintchart.app/Facebook`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -133,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(FacebookComponent);

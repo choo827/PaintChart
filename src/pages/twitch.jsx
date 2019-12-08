@@ -7,6 +7,7 @@ import { Twitch } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Twitch.props);
 
@@ -15,10 +16,16 @@ const TwitchComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Twitch" />
+      <SEO title="Twitch - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${Twitch.backgroundUrl}`} />
-        <PageTitle>Twitch</PageTitle>
+        <PageImage src={`/${Twitch.backgroundUrl}`} alt={`Twitch theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>Twitch</PageTitle>
+						<Share
+								url={`https://paintchart.app/Twitch`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -133,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(TwitchComponent);

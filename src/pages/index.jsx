@@ -5,56 +5,61 @@ import file from '../data/themes.json';
 
 import styled, { keyframes } from 'styled-components';
 import {
-	ItemBoxContainer,
-	ItemBox,
-	ItemBoxImage,
-	ItemBoxSpan,
+  ItemBoxContainer,
+  ItemBox,
+  ItemBoxImage,
+  ItemBoxSpan,
 } from './../styles';
 
 const files = Object.entries(file).sort((a, b) => {
-	if (a[0].toLowerCase() > b[0].toLowerCase()) {
-		return 1;
-	} else if (a[0].toLowerCase() < b[0].toLowerCase()) {
-		return -1;
-	}
-	return 1;
+  if (a[0].toLowerCase() > b[0].toLowerCase()) {
+    return 1;
+  } else if (a[0].toLowerCase() < b[0].toLowerCase()) {
+    return -1;
+  }
+  return 1;
 });
 
 const IndexPage = () => {
-	const [file] = useState(files);
+  const [file] = useState(files);
 
-	const renderFile = useMemo(
-			() =>
-					file.map(file => (
-							<ItemBoxContainer key={file[0].toLowerCase()}>
-								<ItemBox to={`/${file[0].trim().toLowerCase()}`}>
-									<ItemBoxImage width="128" height="128" src={file[1].imageUrl}/>
-									<ItemBoxSpan>{file[0]}</ItemBoxSpan>
-								</ItemBox>
-							</ItemBoxContainer>
-					)),
-			[file],
-	);
+  const renderFile = useMemo(
+    () =>
+      file.map(file => (
+        <ItemBoxContainer key={file[0].toLowerCase()}>
+          <ItemBox to={`/${file[0].trim().toLowerCase()}`}>
+            <ItemBoxImage
+              width="128"
+              height="128"
+              alt={`${file[0]} theme thumbnail`}
+              src={file[1].imageUrl}
+            />
+            <ItemBoxSpan>{file[0]}</ItemBoxSpan>
+          </ItemBox>
+        </ItemBoxContainer>
+      )),
+    [file]
+  );
 
-	return (
-			<Layout>
-				<SEO
-						title="PaintChart - Make your own chart."
-						description="PaintChart is a TradingView chart theme collection site. Make your own unique chart so that people can listen to your chart analysis."
-						image="https://paintchart.app/img/logo/logo-white.png"
-				/>
-				<SliderWrapper>
-					Make your own
-					<Slider>
-						<SlideText1 active>TradingView</SlideText1>
-						<SlideText2>Bitcoin ⛓</SlideText2>
-						<SlideText3>Stock 🔺</SlideText3>
-					</Slider>
-					chart.
-				</SliderWrapper>
-				<StyledContainer>{renderFile}</StyledContainer>
-			</Layout>
-	);
+  return (
+    <Layout>
+      <SEO
+        title="PaintChart - Make your own chart."
+        description="PaintChart is a TradingView chart theme collection site. Make your own unique chart so that people can listen to your chart analysis."
+        image="https://paintchart.app/img/logo/logo-white.png"
+      />
+      <SliderWrapper>
+        Make your own
+        <Slider>
+          <SlideText1 active>TradingView</SlideText1>
+          <SlideText2>Bitcoin ⛓</SlideText2>
+          <SlideText3>Stock 🔺</SlideText3>
+        </Slider>
+        chart.
+      </SliderWrapper>
+      <StyledContainer>{renderFile}</StyledContainer>
+    </Layout>
+  );
 };
 
 const roll = keyframes`
@@ -106,41 +111,40 @@ const SlideText1 = styled.div`
   background: #2196f3;
   animation: ${roll} 7s linear infinite;
   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100%;
-   color: #fff;
-   margin-bottom: 4.375rem;
-   padding: 2px 15px;
-   text-align: center;
-   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+  margin-bottom: 4.375rem;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
 `;
 
 const SlideText2 = styled.div`
-  background: #FF9500;
+  background: #ff9500;
   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100%;
-   color: #fff;
-   margin-bottom: 4.375rem;
-   padding: 2px 15px;
-   text-align: center;
-   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+  margin-bottom: 4.375rem;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
 `;
 
 const SlideText3 = styled.div`
   background: tomato;
   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100%;
-   color: #fff;
-   margin-bottom: 4.375rem;
-   padding: 2px 15px;
-   text-align: center;
-   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+  margin-bottom: 4.375rem;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
 `;
-
 
 export default IndexPage;

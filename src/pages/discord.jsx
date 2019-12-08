@@ -7,6 +7,7 @@ import { Discord } from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
+import Share from '../components/share';
 
 const files = Object.entries(Discord.props);
 
@@ -15,10 +16,16 @@ const DiscordComponent = () => {
 
   return (
     <Layout>
-      <SEO title="Discord" />
+      <SEO title="Discord - PaintChart" />
       <PageContainer>
-        <PageImage src={`/${Discord.backgroundUrl}`} />
-        <PageTitle>Discord</PageTitle>
+        <PageImage src={`/${Discord.backgroundUrl}`} alt={`Discord theme thumbnail`} />
+        <TitleShareContainer>
+				    <PageTitle>Discord</PageTitle>
+						<Share
+								url={`https://paintchart.app/Discord`}
+								title="Blackpink - PaintChart"
+						/>
+				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -63,7 +70,7 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s)}>
+            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -133,5 +140,11 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   margin-top: 8rem;
 `;
+
+const TitleShareContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 
 export default memo(DiscordComponent);

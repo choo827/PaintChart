@@ -25,7 +25,7 @@ function SEO({ description, lang, meta, title, image }) {
         lang,
       }}
       title={title}
-      titleTemplate={"%s - PaintChart"}
+      titleTemplate={'%s'}
       meta={[
         {
           name: `description`,
@@ -44,7 +44,7 @@ function SEO({ description, lang, meta, title, image }) {
           content: `website`,
         },
         {
-          property:`og:image`,
+          property: `og:image`,
           content: image,
         },
         {
@@ -80,7 +80,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-  image: PropTypes.string
+  image: PropTypes.string,
 };
 
 export default SEO;
