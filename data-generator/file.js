@@ -18,7 +18,8 @@ const ${name.split(' ').join('')}Component = () => {
   return (
     <Layout>
       <SEO 
-        title="${name} - PaintChart" 
+        title={\`\${${name}.name} - PaintChart\`}
+        description={\`\${${name}.description}\`}
         image={\`https://paintchart.app/img/${name
           .split(' ')
           .join('')
@@ -26,17 +27,20 @@ const ${name.split(' ').join('')}Component = () => {
           .toLowerCase()}/bg.png\`} 
       />
       <PageContainer>
-        <PageImage src={\`/\${${name}.backgroundUrl}\`} alt={\`${name} theme thumbnail\`} />
+        <PageImage 
+          src={\`/\${${name}.backgroundUrl}\`} 
+          alt={\`${name} theme thumbnail\`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>${name}</PageTitle>
-						<Share
-								url={\`https://paintchart.app/${name
-                  .split(' ')
-                  .join('')
-                  .trim()
-                  .toLowerCase()}\`}
-								title="${name} - PaintChart"
-						/>
+				  <PageTitle>{\`\${${name}.name}\`}</PageTitle>
+					<Share
+						url={\`https://paintchart.app/${name
+              .split(' ')
+              .join('')
+              .trim()
+              .toLowerCase()}\`}
+						title="${name} - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

@@ -17,17 +17,21 @@ const MicrosoftComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Microsoft - PaintChart" 
+        title={`${Microsoft.name} - PaintChart`}
+        description={`${Microsoft.description}`}
         image={`https://paintchart.app/img/microsoft/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Microsoft.backgroundUrl}`} alt={`Microsoft theme thumbnail`} />
+        <PageImage 
+          src={`/${Microsoft.backgroundUrl}`} 
+          alt={`Microsoft theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Microsoft</PageTitle>
-						<Share
-								url={`https://paintchart.app/microsoft`}
-								title="Microsoft - PaintChart"
-						/>
+				  <PageTitle>{`${Microsoft.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/microsoft`}
+						title="Microsoft - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

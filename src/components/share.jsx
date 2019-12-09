@@ -5,12 +5,12 @@ import { FacebookShareButton, TwitterShareButton } from 'react-share';
 const Share = props => (
   <SocialShareContainer>
     <TwitterWrapper>
-      <TwitterShareButton url={props.url} title={props.title}>
+      <TwitterShareButton quote={props.title} url={props.url}>
         <img alt="facebook" src="/img/icon/twitter_b.svg" width="32" />
       </TwitterShareButton>
     </TwitterWrapper>
     <FacebookWrapper>
-      <FacebookShareButton url={props.url} title={props.title}>
+      <FacebookShareButton quote={props.title} url={props.url}>
         <img role="button" alt="facebook" src="/img/icon/fb_b.svg" width="32" />
       </FacebookShareButton>
     </FacebookWrapper>

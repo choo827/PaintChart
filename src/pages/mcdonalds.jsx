@@ -17,17 +17,21 @@ const McDonaldsComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="McDonalds - PaintChart" 
+        title={`${McDonalds.name} - PaintChart`}
+        description={`${McDonalds.description}`}
         image={`https://paintchart.app/img/mcdonalds/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${McDonalds.backgroundUrl}`} alt={`McDonalds theme thumbnail`} />
+        <PageImage 
+          src={`/${McDonalds.backgroundUrl}`} 
+          alt={`McDonalds theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>McDonalds</PageTitle>
-						<Share
-								url={`https://paintchart.app/mcdonalds`}
-								title="McDonalds - PaintChart"
-						/>
+				  <PageTitle>{`${McDonalds.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/mcdonalds`}
+						title="McDonalds - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

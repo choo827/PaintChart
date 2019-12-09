@@ -17,17 +17,21 @@ const HalloweenComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Halloween - PaintChart" 
+        title={`${Halloween.name} - PaintChart`}
+        description={`${Halloween.description}`}
         image={`https://paintchart.app/img/halloween/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Halloween.backgroundUrl}`} alt={`Halloween theme thumbnail`} />
+        <PageImage 
+          src={`/${Halloween.backgroundUrl}`} 
+          alt={`Halloween theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Halloween</PageTitle>
-						<Share
-								url={`https://paintchart.app/halloween`}
-								title="Halloween - PaintChart"
-						/>
+				  <PageTitle>{`${Halloween.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/halloween`}
+						title="Halloween - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

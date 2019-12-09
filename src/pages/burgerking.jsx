@@ -17,17 +17,21 @@ const BurgerKingComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="BurgerKing - PaintChart" 
+        title={`${BurgerKing.name} - PaintChart`}
+        description={`${BurgerKing.description}`}
         image={`https://paintchart.app/img/burgerking/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${BurgerKing.backgroundUrl}`} alt={`BurgerKing theme thumbnail`} />
+        <PageImage 
+          src={`/${BurgerKing.backgroundUrl}`} 
+          alt={`BurgerKing theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>BurgerKing</PageTitle>
-						<Share
-								url={`https://paintchart.app/burgerking`}
-								title="BurgerKing - PaintChart"
-						/>
+				  <PageTitle>{`${BurgerKing.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/burgerking`}
+						title="BurgerKing - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

@@ -34,7 +34,7 @@ const IndexPage = () => {
               alt={`${file[0]} theme thumbnail`}
               src={file[1].imageUrl}
             />
-            <ItemBoxSpan>{file[0]}</ItemBoxSpan>
+            <ItemBoxSpan>{file[1].name}</ItemBoxSpan>
           </ItemBox>
         </ItemBoxContainer>
       )),
@@ -145,7 +145,7 @@ const SlideText2 = styled.span`
 `;
 
 const SlideText3 = styled.span`
-  background: #2ECC40;
+  background: #2ecc40;
   display: flex;
   align-items: center;
   justify-content: center;

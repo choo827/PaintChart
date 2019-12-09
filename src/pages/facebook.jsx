@@ -17,17 +17,21 @@ const FacebookComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Facebook - PaintChart" 
+        title={`${Facebook.name} - PaintChart`}
+        description={`${Facebook.description}`}
         image={`https://paintchart.app/img/facebook/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Facebook.backgroundUrl}`} alt={`Facebook theme thumbnail`} />
+        <PageImage 
+          src={`/${Facebook.backgroundUrl}`} 
+          alt={`Facebook theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Facebook</PageTitle>
-						<Share
-								url={`https://paintchart.app/facebook`}
-								title="Facebook - PaintChart"
-						/>
+				  <PageTitle>{`${Facebook.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/facebook`}
+						title="Facebook - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

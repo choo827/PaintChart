@@ -17,17 +17,21 @@ const DiscordComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Discord - PaintChart" 
+        title={`${Discord.name} - PaintChart`}
+        description={`${Discord.description}`}
         image={`https://paintchart.app/img/discord/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Discord.backgroundUrl}`} alt={`Discord theme thumbnail`} />
+        <PageImage 
+          src={`/${Discord.backgroundUrl}`} 
+          alt={`Discord theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Discord</PageTitle>
-						<Share
-								url={`https://paintchart.app/discord`}
-								title="Discord - PaintChart"
-						/>
+				  <PageTitle>{`${Discord.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/discord`}
+						title="Discord - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

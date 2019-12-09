@@ -17,17 +17,21 @@ const SpongeBobComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="SpongeBob - PaintChart" 
+        title={`${SpongeBob.name} - PaintChart`}
+        description={`${SpongeBob.description}`}
         image={`https://paintchart.app/img/spongebob/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${SpongeBob.backgroundUrl}`} alt={`SpongeBob theme thumbnail`} />
+        <PageImage 
+          src={`/${SpongeBob.backgroundUrl}`} 
+          alt={`SpongeBob theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>SpongeBob</PageTitle>
-						<Share
-								url={`https://paintchart.app/spongebob`}
-								title="SpongeBob - PaintChart"
-						/>
+				  <PageTitle>{`${SpongeBob.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/spongebob`}
+						title="SpongeBob - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

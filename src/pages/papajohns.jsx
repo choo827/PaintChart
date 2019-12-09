@@ -17,17 +17,21 @@ const PapaJohnsComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="PapaJohns - PaintChart" 
+        title={`${PapaJohns.name} - PaintChart`}
+        description={`${PapaJohns.description}`}
         image={`https://paintchart.app/img/papajohns/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${PapaJohns.backgroundUrl}`} alt={`PapaJohns theme thumbnail`} />
+        <PageImage 
+          src={`/${PapaJohns.backgroundUrl}`} 
+          alt={`PapaJohns theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>PapaJohns</PageTitle>
-						<Share
-								url={`https://paintchart.app/papajohns`}
-								title="PapaJohns - PaintChart"
-						/>
+				  <PageTitle>{`${PapaJohns.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/papajohns`}
+						title="PapaJohns - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

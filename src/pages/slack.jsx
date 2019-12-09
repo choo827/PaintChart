@@ -17,17 +17,21 @@ const SlackComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Slack - PaintChart" 
+        title={`${Slack.name} - PaintChart`}
+        description={`${Slack.description}`}
         image={`https://paintchart.app/img/slack/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Slack.backgroundUrl}`} alt={`Slack theme thumbnail`} />
+        <PageImage 
+          src={`/${Slack.backgroundUrl}`} 
+          alt={`Slack theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Slack</PageTitle>
-						<Share
-								url={`https://paintchart.app/slack`}
-								title="Slack - PaintChart"
-						/>
+				  <PageTitle>{`${Slack.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/slack`}
+						title="Slack - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

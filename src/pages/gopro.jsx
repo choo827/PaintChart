@@ -17,17 +17,21 @@ const GoProComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="GoPro - PaintChart" 
+        title={`${GoPro.name} - PaintChart`}
+        description={`${GoPro.description}`}
         image={`https://paintchart.app/img/gopro/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${GoPro.backgroundUrl}`} alt={`GoPro theme thumbnail`} />
+        <PageImage 
+          src={`/${GoPro.backgroundUrl}`} 
+          alt={`GoPro theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>GoPro</PageTitle>
-						<Share
-								url={`https://paintchart.app/gopro`}
-								title="GoPro - PaintChart"
-						/>
+				  <PageTitle>{`${GoPro.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/gopro`}
+						title="GoPro - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

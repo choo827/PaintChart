@@ -17,17 +17,21 @@ const FedexComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Fedex - PaintChart" 
+        title={`${Fedex.name} - PaintChart`}
+        description={`${Fedex.description}`}
         image={`https://paintchart.app/img/fedex/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Fedex.backgroundUrl}`} alt={`Fedex theme thumbnail`} />
+        <PageImage 
+          src={`/${Fedex.backgroundUrl}`} 
+          alt={`Fedex theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Fedex</PageTitle>
-						<Share
-								url={`https://paintchart.app/fedex`}
-								title="Fedex - PaintChart"
-						/>
+				  <PageTitle>{`${Fedex.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/fedex`}
+						title="Fedex - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

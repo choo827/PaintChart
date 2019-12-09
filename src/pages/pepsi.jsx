@@ -17,17 +17,21 @@ const PepsiComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Pepsi - PaintChart" 
+        title={`${Pepsi.name} - PaintChart`}
+        description={`${Pepsi.description}`}
         image={`https://paintchart.app/img/pepsi/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Pepsi.backgroundUrl}`} alt={`Pepsi theme thumbnail`} />
+        <PageImage 
+          src={`/${Pepsi.backgroundUrl}`} 
+          alt={`Pepsi theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Pepsi</PageTitle>
-						<Share
-								url={`https://paintchart.app/pepsi`}
-								title="Pepsi - PaintChart"
-						/>
+				  <PageTitle>{`${Pepsi.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/pepsi`}
+						title="Pepsi - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

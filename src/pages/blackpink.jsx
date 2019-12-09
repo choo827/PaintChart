@@ -17,17 +17,21 @@ const BlackpinkComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Blackpink - PaintChart" 
+        title={`${Blackpink.name} - PaintChart`}
+        description={`${Blackpink.description}`}
         image={`https://paintchart.app/img/blackpink/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Blackpink.backgroundUrl}`} alt={`Blackpink theme thumbnail`} />
+        <PageImage 
+          src={`/${Blackpink.backgroundUrl}`} 
+          alt={`Blackpink theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Blackpink</PageTitle>
-						<Share
-								url={`https://paintchart.app/blackpink`}
-								title="Blackpink - PaintChart"
-						/>
+				  <PageTitle>{`${Blackpink.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/blackpink`}
+						title="Blackpink - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

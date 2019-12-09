@@ -17,17 +17,21 @@ const FantaComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Fanta - PaintChart" 
+        title={`${Fanta.name} - PaintChart`}
+        description={`${Fanta.description}`}
         image={`https://paintchart.app/img/fanta/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Fanta.backgroundUrl}`} alt={`Fanta theme thumbnail`} />
+        <PageImage 
+          src={`/${Fanta.backgroundUrl}`} 
+          alt={`Fanta theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Fanta</PageTitle>
-						<Share
-								url={`https://paintchart.app/fanta`}
-								title="Fanta - PaintChart"
-						/>
+				  <PageTitle>{`${Fanta.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/fanta`}
+						title="Fanta - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

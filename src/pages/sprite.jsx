@@ -17,17 +17,21 @@ const SpriteComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Sprite - PaintChart" 
+        title={`${Sprite.name} - PaintChart`}
+        description={`${Sprite.description}`}
         image={`https://paintchart.app/img/sprite/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Sprite.backgroundUrl}`} alt={`Sprite theme thumbnail`} />
+        <PageImage 
+          src={`/${Sprite.backgroundUrl}`} 
+          alt={`Sprite theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Sprite</PageTitle>
-						<Share
-								url={`https://paintchart.app/sprite`}
-								title="Sprite - PaintChart"
-						/>
+				  <PageTitle>{`${Sprite.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/sprite`}
+						title="Sprite - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

@@ -16,19 +16,23 @@ const TwitterComponent = () => {
 
   return (
     <Layout>
-      <SEO 
-        title="Twitter - PaintChart" 
-        image={`https://paintchart.app/img/twitter/bg.png`} 
+      <SEO
+        title={`${Twitter.name} - PaintChart`}
+        description={`${Twitter.description}`}
+        image={`https://paintchart.app/img/twitter/bg.png`}
       />
       <PageContainer>
-        <PageImage src={`/${Twitter.backgroundUrl}`} alt={`Twitter theme thumbnail`} />
+        <PageImage
+          src={`/${Twitter.backgroundUrl}`}
+          alt={`Twitter theme thumbnail`}
+        />
         <TitleShareContainer>
-				    <PageTitle>Twitter</PageTitle>
-						<Share
-								url={`https://paintchart.app/twitter`}
-								title="Twitter - PaintChart"
-						/>
-				</TitleShareContainer>
+          <PageTitle>{`${Twitter.name}`}</PageTitle>
+          <Share
+            url={`https://paintchart.app/twitter`}
+            title="Twitter - PaintChart"
+          />
+        </TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
         <StyledContainer>
@@ -73,7 +77,9 @@ const RenderSpecific = ({ title, dataArray }) => (
             <RenderSpecificContainerItem color={s}>
               {s}
             </RenderSpecificContainerItem>
-            <RenderSpecificContainerCopyButton onClick={() => copyText(s.substring(1, s.length))}>
+            <RenderSpecificContainerCopyButton
+              onClick={() => copyText(s.substring(1, s.length))}
+            >
               Copy
             </RenderSpecificContainerCopyButton>
           </RenderSpecificItemColorContainer>
@@ -114,7 +120,8 @@ const RenderSpecificContainerItem = styled.span`
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
-  color: ${({ color }) => (color ? color === 'Default' ? 'black' : invertColor(color) : 'black')};
+  color: ${({ color }) =>
+    color ? (color === 'Default' ? 'black' : invertColor(color)) : 'black'};
   ${({ color }) => (color ? `background-color: ${color};` : '')}
   padding-top: 5px;
   padding-bottom: 5px;
@@ -148,6 +155,5 @@ const TitleShareContainer = styled.div`
   display: flex;
   justify-content: space-between;
 `;
-
 
 export default memo(TwitterComponent);

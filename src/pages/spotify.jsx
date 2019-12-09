@@ -17,17 +17,21 @@ const SpotifyComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Spotify - PaintChart" 
+        title={`${Spotify.name} - PaintChart`}
+        description={`${Spotify.description}`}
         image={`https://paintchart.app/img/spotify/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Spotify.backgroundUrl}`} alt={`Spotify theme thumbnail`} />
+        <PageImage 
+          src={`/${Spotify.backgroundUrl}`} 
+          alt={`Spotify theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Spotify</PageTitle>
-						<Share
-								url={`https://paintchart.app/spotify`}
-								title="Spotify - PaintChart"
-						/>
+				  <PageTitle>{`${Spotify.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/spotify`}
+						title="Spotify - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

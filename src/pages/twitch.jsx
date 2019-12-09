@@ -17,17 +17,21 @@ const TwitchComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Twitch - PaintChart" 
+        title={`${Twitch.name} - PaintChart`}
+        description={`${Twitch.description}`}
         image={`https://paintchart.app/img/twitch/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Twitch.backgroundUrl}`} alt={`Twitch theme thumbnail`} />
+        <PageImage 
+          src={`/${Twitch.backgroundUrl}`} 
+          alt={`Twitch theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Twitch</PageTitle>
-						<Share
-								url={`https://paintchart.app/twitch`}
-								title="Twitch - PaintChart"
-						/>
+				  <PageTitle>{`${Twitch.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/twitch`}
+						title="Twitch - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

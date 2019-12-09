@@ -17,17 +17,21 @@ const EvianComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Evian - PaintChart" 
+        title={`${Evian.name} - PaintChart`}
+        description={`${Evian.description}`}
         image={`https://paintchart.app/img/evian/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Evian.backgroundUrl}`} alt={`Evian theme thumbnail`} />
+        <PageImage 
+          src={`/${Evian.backgroundUrl}`} 
+          alt={`Evian theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Evian</PageTitle>
-						<Share
-								url={`https://paintchart.app/evian`}
-								title="Evian - PaintChart"
-						/>
+				  <PageTitle>{`${Evian.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/evian`}
+						title="Evian - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

@@ -17,17 +17,21 @@ const LatteComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Latte - PaintChart" 
+        title={`${Latte.name} - PaintChart`}
+        description={`${Latte.description}`}
         image={`https://paintchart.app/img/latte/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Latte.backgroundUrl}`} alt={`Latte theme thumbnail`} />
+        <PageImage 
+          src={`/${Latte.backgroundUrl}`} 
+          alt={`Latte theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Latte</PageTitle>
-						<Share
-								url={`https://paintchart.app/latte`}
-								title="Latte - PaintChart"
-						/>
+				  <PageTitle>{`${Latte.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/latte`}
+						title="Latte - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

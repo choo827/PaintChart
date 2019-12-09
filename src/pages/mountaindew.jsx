@@ -17,17 +17,21 @@ const MountainDewComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="MountainDew - PaintChart" 
+        title={`${MountainDew.name} - PaintChart`}
+        description={`${MountainDew.description}`}
         image={`https://paintchart.app/img/mountaindew/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${MountainDew.backgroundUrl}`} alt={`MountainDew theme thumbnail`} />
+        <PageImage 
+          src={`/${MountainDew.backgroundUrl}`} 
+          alt={`MountainDew theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>MountainDew</PageTitle>
-						<Share
-								url={`https://paintchart.app/mountaindew`}
-								title="MountainDew - PaintChart"
-						/>
+				  <PageTitle>{`${MountainDew.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/mountaindew`}
+						title="MountainDew - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

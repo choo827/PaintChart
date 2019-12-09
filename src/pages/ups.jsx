@@ -17,17 +17,21 @@ const UPSComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="UPS - PaintChart" 
+        title={`${UPS.name} - PaintChart`}
+        description={`${UPS.description}`}
         image={`https://paintchart.app/img/ups/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${UPS.backgroundUrl}`} alt={`UPS theme thumbnail`} />
+        <PageImage 
+          src={`/${UPS.backgroundUrl}`} 
+          alt={`UPS theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>UPS</PageTitle>
-						<Share
-								url={`https://paintchart.app/ups`}
-								title="UPS - PaintChart"
-						/>
+				  <PageTitle>{`${UPS.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/ups`}
+						title="UPS - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

@@ -17,17 +17,21 @@ const DunkinComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Dunkin - PaintChart" 
+        title={`${Dunkin.name} - PaintChart`}
+        description={`${Dunkin.description}`}
         image={`https://paintchart.app/img/dunkin/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Dunkin.backgroundUrl}`} alt={`Dunkin theme thumbnail`} />
+        <PageImage 
+          src={`/${Dunkin.backgroundUrl}`} 
+          alt={`Dunkin theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Dunkin</PageTitle>
-						<Share
-								url={`https://paintchart.app/dunkin`}
-								title="Dunkin - PaintChart"
-						/>
+				  <PageTitle>{`${Dunkin.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/dunkin`}
+						title="Dunkin - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 

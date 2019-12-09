@@ -17,17 +17,21 @@ const CryptowatchComponent = () => {
   return (
     <Layout>
       <SEO 
-        title="Cryptowatch - PaintChart" 
+        title={`${Cryptowatch.name} - PaintChart`}
+        description={`${Cryptowatch.description}`}
         image={`https://paintchart.app/img/cryptowatch/bg.png`} 
       />
       <PageContainer>
-        <PageImage src={`/${Cryptowatch.backgroundUrl}`} alt={`Cryptowatch theme thumbnail`} />
+        <PageImage 
+          src={`/${Cryptowatch.backgroundUrl}`} 
+          alt={`Cryptowatch theme thumbnail`} 
+        />
         <TitleShareContainer>
-				    <PageTitle>Cryptowatch</PageTitle>
-						<Share
-								url={`https://paintchart.app/cryptowatch`}
-								title="Cryptowatch - PaintChart"
-						/>
+				  <PageTitle>{`${Cryptowatch.name}`}</PageTitle>
+					<Share
+						url={`https://paintchart.app/cryptowatch`}
+						title="Cryptowatch - PaintChart"
+					/>
 				</TitleShareContainer>
         <PageAuthor>by PaintChart</PageAuthor>
 
