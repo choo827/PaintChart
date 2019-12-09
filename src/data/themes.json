@@ -1,6 +1,7 @@
 {
   "Blackpink": {
-    "name": "pinkBlack",
+    "name": "Blackpink",
+    "description": "A luxurious chart theme consisting of black and pink.",
     "imageUrl": "img/blackpink/thumb.png",
     "backgroundUrl": "img/blackpink/bg.png",
     "props": {
@@ -52,6 +53,8 @@
     }
   },
   "Halloween": {
+    "name": "Halloween",
+    "description": "A spooky Halloween chart theme",
     "imageUrl": "img/halloween/thumb.png",
     "backgroundUrl": "img/halloween/bg.png",
     "props": {
@@ -103,6 +106,8 @@
     }
   },
   "Facebook": {
+    "name": "Facebook",
+    "description": "This is the chart theme you want to press like.",
     "imageUrl": "img/facebook/thumb.png",
     "backgroundUrl": "img/facebook/bg.png",
     "props": {
@@ -154,6 +159,8 @@
     }
   },
   "Discord": {
+    "name": "Discord",
+    "description": "Step up your TradingView with a modern chart theme. Crystal clear color, multiple bullish candle stick and bearish candle stick support and more.",
     "imageUrl": "img/discord/thumb.png",
     "backgroundUrl": "img/discord/bg.png",
     "props": {
@@ -205,6 +212,8 @@
     }
   },
   "Latte": {
+    "name": "Latte",
+    "description": "This theme is made up of espresso and milk.",
     "imageUrl": "img/latte/thumb.png",
     "backgroundUrl": "img/latte/bg.png",
     "props": {
@@ -256,6 +265,8 @@
     }
   },
   "Twitter": {
+    "name": "Twitter",
+    "description": "Look what happens in chart.",
     "imageUrl": "img/twitter/thumb.png",
     "backgroundUrl": "img/twitter/bg.png",
     "props": {
@@ -307,6 +318,8 @@
     }
   },
   "Cryptowatch": {
+    "name": "Cryptowatch",
+    "description": "Live Bitcoin price chart theme",
     "imageUrl": "img/cryptowatch/thumb.png",
     "backgroundUrl": "img/cryptowatch/bg.png",
     "props": {
@@ -358,6 +371,8 @@
     }
   },
   "Evian": {
+    "name": "Evian",
+    "description": "Do you feel thirsty? Try this theme.",
     "imageUrl": "img/evian/thumb.png",
     "backgroundUrl": "img/evian/bg.png",
     "props": {
@@ -409,6 +424,8 @@
     }
   },
   "BurgerKing": {
+    "name": "Burger King",
+    "description": "The king of the chart theme",
     "imageUrl": "img/burgerking/thumb.png",
     "backgroundUrl": "img/burgerking/bg.png",
     "props": {
@@ -460,6 +477,8 @@
     }
   },
   "Dunkin": {
+    "name": "Dunkin",
+    "description": "It's a theme where you want to eat doughnuts.",
     "imageUrl": "img/dunkin/thumb.png",
     "backgroundUrl": "img/dunkin/bg.png",
     "props": {
@@ -511,6 +530,8 @@
     }
   },
   "UPS": {
+    "name": "UPS",
+    "description": "We also have Fedex theme.",
     "imageUrl": "img/ups/thumb.png",
     "backgroundUrl": "img/ups/bg.png",
     "props": {
@@ -562,6 +583,8 @@
     }
   },
   "GoPro": {
+    "name": "Gopro",
+    "description": "The world's most versatile chart theme",
     "imageUrl": "img/gopro/thumb.png",
     "backgroundUrl": "img/gopro/bg.png",
     "props": {
@@ -613,6 +636,8 @@
     }
   },
   "Fanta": {
+    "name": "Fanta",
+    "description": "We also have Pepsi theme.",
     "imageUrl": "img/fanta/thumb.png",
     "backgroundUrl": "img/fanta/bg.png",
     "props": {
@@ -664,6 +689,8 @@
     }
   },
   "Pepsi": {
+    "name": "Pepsi",
+    "description": "We also have Mountain Dew theme.",
     "imageUrl": "img/pepsi/thumb.png",
     "backgroundUrl": "img/pepsi/bg.png",
     "props": {
@@ -715,6 +742,8 @@
     }
   },
   "PapaJohns": {
+    "name": "Papa John’s",
+    "description": "This is a pizza that the developer likes.",
     "imageUrl": "img/papa/thumb.png",
     "backgroundUrl": "img/papa/bg.png",
     "props": {
@@ -766,6 +795,8 @@
     }
   },
   "Slack": {
+    "name": "Slack",
+    "description": "Where bitcoin analysis happens",
     "imageUrl": "img/slack/thumb.png",
     "backgroundUrl": "img/slack/bg.png",
     "props": {
@@ -817,6 +848,8 @@
     }
   },
   "Spotify": {
+    "name": "Spotify",
+    "description": "Chart theme for everyone.",
     "imageUrl": "img/spotify/thumb.png",
     "backgroundUrl": "img/spotify/bg.png",
     "props": {
@@ -868,6 +901,8 @@
     }
   },
   "Microsoft": {
+    "name": "Microsoft",
+    "description": "Microsoft theme's mission and values are to help traders throughout the world realize their full potential.",
     "imageUrl": "img/microsoft/thumb.png",
     "backgroundUrl": "img/microsoft/bg.png",
     "props": {
@@ -919,6 +954,8 @@
     }
   },
   "Starbucks": {
+    "name": "Starbucks",
+    "description": "If you like Starbucks, you'll definitely love the theme, too!",
     "imageUrl": "img/starbucks/thumb.png",
     "backgroundUrl": "img/starbucks/bg.png",
     "props": {
@@ -970,6 +1007,8 @@
     }
   },
   "SpongeBob": {
+    "name": "SpongeBob",
+    "description": "It's my favorite animation!",
     "imageUrl": "img/spongebob/thumb.png",
     "backgroundUrl": "img/spongebob/bg.png",
     "props": {
@@ -1021,6 +1060,8 @@
     }
   },
   "McDonalds": {
+    "name": "McDonald’s",
+    "description": "This theme will tell you the Big Mac Index.",
     "imageUrl": "img/mcdonalds/thumb.png",
     "backgroundUrl": "img/mcdonalds/bg.png",
     "props": {
@@ -1072,6 +1113,8 @@
     }
   },
   "Twitch": {
+    "name": "Twitch",
+    "description": "I hope the Bitcoin deal is as easy as a game.",
     "imageUrl": "img/twitch/thumb.png",
     "backgroundUrl": "img/twitch/bg.png",
     "props": {
@@ -1123,6 +1166,8 @@
     }
   },
   "Fedex": {
+    "name": "Fedex",
+    "description": "We also have UPS theme.",
     "imageUrl": "img/fedex/thumb.png",
     "backgroundUrl": "img/fedex/bg.png",
     "props": {
@@ -1174,6 +1219,8 @@
     }
   },
   "MountainDew": {
+    "name": "Mountain Dew",
+    "description": "We also have Sprite theme.",
     "imageUrl": "img/mountaindew/thumb.png",
     "backgroundUrl": "img/mountaindew/bg.png",
     "props": {
@@ -1225,6 +1272,8 @@
     }
   },
   "Sprite": {
+    "name": "Sprite",
+    "description": "We also have Pepsi theme.",
     "imageUrl": "img/sprite/thumb.png",
     "backgroundUrl": "img/sprite/bg.png",
     "props": {
