@@ -145,7 +145,7 @@ const SlideText2 = styled.span`
 `;
 
 const SlideText3 = styled.span`
-  background: tomato;
+  background: #2ECC40;
   display: flex;
   align-items: center;
   justify-content: center;
