@@ -22,6 +22,7 @@ PaintChart는 트레이딩 뷰 차트의 테마를 모아놓은 사이트이다.
 - 🎨 테마: [BRAND PALETTES](https://brandpalettes.com/)
 - 🖋 폰트: [Google Font (Alata)](https://fonts.google.com/specimen/Alata)
 - ⚜️ 로고제작: [Canva](https://www.canva.com/)
+- 🏷 메타태그: [Metatags.io](https://metatags.io/)
 
 ## 🧑‍💻 도와준 사람
 - [NoMoreViolence](https://github.com/NoMoreViolence)
