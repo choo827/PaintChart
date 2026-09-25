@@ -3,11 +3,13 @@ import BuyMeACoffee from '../components/buymeacoffee';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { copyText, invertColor } from '../helper';
-import { Fanta } from '../data/themes.json';
+import themes from '../data/themes.json';
 
 import styled from 'styled-components';
 import { PageAuthor, PageContainer, PageImage, PageTitle } from '../styles';
 import Share from '../components/share';
+
+const Fanta = themes.Fanta;
 
 const files = Object.entries(Fanta.props);
 
